@@ -1,0 +1,10 @@
+/*
+ Theme Name:     Customizr Child
+ Description:    Customizr Child Theme
+ Author:         Engineering Leadership Council
+ Template:       customizr
+*/
+
+@import url("../customizr/style.css");
+
+@import url("custom.css");

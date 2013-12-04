@@ -1,0 +1,222 @@
+/* =Theme customization starts here
+
+/* Remove Navbar box           */
+.proglinkstyle {
+	color: #5A5A5A;
+}
+
+/* Set footer color */
+footer#footer {
+	background: none repeat scroll 0 0 #f0f0f0;
+}
+
+.home #main-wrapper {
+	margin-top: 0px;
+}
+
+.home .marketing {
+	margin-top:0px;
+}
+
+/*Set min-heights on the featured page content so it is aligned horizontally */
+.widget-front h2 {
+min-height:80px;}
+
+.fp-text-one, .fp-text-two, .fp-text-three {
+min-height:     80px;}
+/* disable featured pages expansion on mouseover */
+.round-div{display:none;} 
+
+.carousel .item {
+	line-height: 500px;
+	overflow: hidden;
+	min-height: 500px;
+}
+
+/* Set program template formats  */
+.productblock {
+	background-color:#ffffff;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #dfddb5;
+	border-radius: 5px 5px 5px 5px;
+	padding: 20px;
+}
+
+.productoutline {
+	background-image: linear-gradient(#ffffff,#e5eecc);
+	background-repeat: repeat-x;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #9DB668;
+	border-radius: 0px 0px 10px 10px;
+	padding: 12px;
+}
+
+.productheader {
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	text-align: center;
+	background-image: linear-gradient(#9DB668, #768D44);
+	background-repeat: repeat-x;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid #215E21;
+	border-radius: 10px 10px 0 0;
+	margin-top:30px;
+}
+
+.marketing .span4 {
+	background-image: linear-gradient(#ffffff,#FFFBEB);
+	min-width: 30%;
+
+	background-repeat: repeat-x;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #dfddb5;
+	border-radius: 5px 5px 5px 5px;
+	padding: 12px;
+}
+
+.format-icon:before {
+	speak: none;
+	text-transform: none;
+  	-webkit-font-smoothing: antialiased;
+  	padding-right: 10px;
+  	opacity: 0.2;
+  	position: relative;
+  	top: 8px;
+  	display: none;
+  	font: normal normal 1.2em/1 'entypo';
+}
+
+.HeadShotBox {
+	width:100%;
+	float: left;
+	overflow: hidden;
+}
+
+.HeadShotBox > .HeadShotBoxInner {
+	padding-bottom: 100%;
+	position: relative;
+}
+
+
+.HeadShotText {
+	background-color: #000000;
+	opacity: 0.8;
+	text-align: center;
+	overflow:hidden;
+	height:0px;
+	line-height:30px;
+	position: absolute;
+	left:0px; bottom:0px;
+	width:100%;
+}
+
+.HeadShotText > .StaffName {
+	font-size: 1.5em;
+}
+
+.HeadShotText > .Position {
+	display: block;
+	font-size: 1.1em;
+	line-height: 12px;
+}
+
+.HeadShotExpandedBox {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.HeadShotExpandedBoxInner {
+	font-size: 1.1em;
+	height: 0px;
+	display: none;
+	padding: 0px 30px 0px 30px;
+	border: 10px;
+	border-style:solid none solid none;
+}
+
+.ProfileSummary {
+	height:100%;
+	margin:30px;
+	width:20%;
+	float:left;
+}
+
+.ProfileText {
+	height:100%;
+	margin:40px;
+}
+
+.PeopleRadioButton{
+	margin-right:10px;
+	height:20px;width:20px;
+}
+
+.RadioButtonRow {
+	align:middle;
+}
+
+.g-community{
+	width:100%;
+}
+
+/*Hide Post Meta-Details*/
+.entry-meta {
+	display: none;
+}
+
+/*Set post title size*/
+.blog .entry-title{
+	font-size:1.5em;
+}
+
+
+/*Laying out document tables */
+.DataTables {
+	border: 2px solid #9DB668;
+	text-align: center;
+	font-size: 1.1em;
+	line-height:1;
+}
+
+.DataTables thead{
+	font-size: 1.1em;
+	line-height:1;
+	text-align: center;
+	border: 2px solid #9DB668;
+	background-color: #FFFFFF;
+}
+
+.DataTables tbody {
+	border: 1px solid #9DB668;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.DataTables td {
+	padding: 6px;
+}
+
+.DataTables tbody .column-1,
+.DataTables tbody .column-2{
+	text-align: left;
+}
+
+.DataTables .column-3{
+	width:10%
+}
+
+.DataTables .column-4,
+.DataTables .column-5{
+	width:5%;
+}
