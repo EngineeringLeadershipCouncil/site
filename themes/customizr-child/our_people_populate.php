@@ -7,7 +7,7 @@ $numplaced=0;
 $colors = array('#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69');
 ?>
 
-<?php $username="root";$password="PurpleMonkey#3";$database="wordpress315";$table="staff";
+<?php $username = DB_USER; $password = DB_PASSWORD; $database = DB_NAME; $table = "staff";
 mysql_connect(localhost,$username,$password);
 @mysql_select_db($database) or die( "Unable to select database");
 
