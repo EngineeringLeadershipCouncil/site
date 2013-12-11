@@ -113,7 +113,7 @@ class TC_header_main {
 
 
       /**
-	 * The template for displaying the title or the logo
+	 * The template for displaying the logo (text or img)
 	 *
 	 *
 	 * @package Customizr
@@ -126,41 +126,92 @@ class TC_header_main {
       	$accepted_formats		= array('jpg', 'jpeg', 'png' ,'gif');
        	$filetype 				= wp_check_filetype ($logo_src);
 
-       	ob_start();
 		?>
 
 		<?php if( !empty($logo_src) && in_array( $filetype['ext'], $accepted_formats ) ) :?>
 			
-		<?php
+			<?php
+			//filter args
+	   		$filter_args 		= array( 
+		       		'logo_src' 			=>		$logo_src, 
+		       		'logo_resize' 		=>		$logo_resize 
+	   		);
+			ob_start();
+
 			$width = '';
 			$height = '';
 			//get height and width from image, we check if getimagesize can be used first with the error control operator
 			if ( @getimagesize($logo_src) ) {
 				list( $width, $height ) = getimagesize($logo_src);
 			}
-			//logo styling option
-       		$logo_img_style			= ( 1 == $logo_resize) ? 'style="max-width:250px;max-height:100px"' : '';
-		?>
+			?>
 
-	        <div class="brand span3">
-	          <?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
-	           <h1><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'Back Home' , 'customizr' ); ?>" <?php echo $logo_img_style ?> width="<?php echo $width ?>" height="<?php echo $height ?>"/></a>
-	           </h1>
-	        </div>
+		        <div class="brand span3">
 
+		        	<?php do_action( '__before_logo' ) ?>
+
+		          	<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
+
+		          	<?php 
+			          	printf( '<a class="site-logo" href="%1$s" title="%2$s | %3$s"><img src="%4$s" alt="%5$s" width="%6$s" height="%7$s" %8$s /></a>',
+			          		esc_url( home_url( '/' ) ),
+			          		esc_attr( get_bloginfo( 'name') ),
+			          		esc_attr( get_bloginfo( 'description' ) ),
+			          		$logo_src,	
+			          		__( 'Back Home' , 'customizr' ),
+							$width,
+							$height,
+							( 1 == $logo_resize) ? sprintf( 'style="max-width:%1$spx;max-height:%2$spx"',
+													apply_filters( '__max_logo_width', 250 ),
+													apply_filters( '__max_logo_height', 100 )
+													) : ''
+			          	); 
+		          	?>
+
+		           	<?php do_action( '__after_logo' ) ?>
+
+		        </div> <!-- brand span3 -->
+
+	        <?php 
+		   	$html = ob_get_contents();
+	       	ob_end_clean();
+	       	echo apply_filters( 'tc_logo_img_display', $html, $filter_args );
+	       	?>
+
+	    
 	    <?php else : ?>
 
-          <div class="brand span3 pull-left">
-          	<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
-             <h1><a class="site-title" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><?php bloginfo( 'name' ); ?></a>
-              </h1>
-          </div>
+	    	<?php ob_start(); ?>
+
+		        <div class="brand span3 pull-left">
+
+		        	<?php do_action( '__before_logo' ) ?>
+
+		          	<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
+		            
+		            <?php
+			          	printf('<h1><a class="site-title" href="%1$s" title="%2$s | %3$s">%4$s</a></h1>',
+			          		esc_url( home_url( '/' ) ),
+			          		esc_attr( get_bloginfo( 'name') ),
+			          		esc_attr( get_bloginfo( 'description' ) ),
+			          		esc_attr( get_bloginfo( 'name') )
+			          	); 
+		          	?>
+
+		             <?php do_action( '__after_logo' ) ?>
+
+		        </div> <!-- brand span3 pull-left -->
+
+	        <?php 
+		   	$html = ob_get_contents();
+	       	ob_end_clean();
+	       	echo apply_filters( 'tc_logo_text_display', $html);
+	       	?>
 
 	   <?php endif; ?>
+
+	   
 	   <?php 
-	   $html = ob_get_contents();
-       ob_end_clean();
-       echo apply_filters( 'tc_logo_title_display', $html );
 	}
 
 
@@ -185,14 +236,18 @@ class TC_header_main {
           			<div class="navbar-inner" role="navigation">
           				<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
           				<div class="row-fluid">
-	            			<?php do_action( '__navbar' ); //hook of social, tagline, menu, ordered by priorities 10, 20, 30?>
+	            			<?php 
+	            				do_action( '__navbar' ); //hook of social, tagline, menu, ordered by priorities 10, 20, 30 
+	            			?>
 	            		</div><!-- .row-fluid -->
 	            	</div><!-- /.navbar-inner -->
 	            </div><!-- /.navbar notresp -->
 
 	            <div class="navbar resp">
 	            	<div class="navbar-inner" role="navigation">
-	            		<?php do_action( '__navbar' , 'resp' ); //hook of social, menu, ordered by priorities 10, 20?>
+	            		<?php 
+	            			do_action( '__navbar' , 'resp' ); //hook of social, menu, ordered by priorities 10, 20 
+	            		?>
 	            	</div><!-- /.navbar-inner -->
           		</div><!-- /.navbar resp -->
 

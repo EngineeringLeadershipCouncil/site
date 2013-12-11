@@ -12,7 +12,7 @@
 		<?php do_action( '__before_footer' ); ?>
 		
 			<!-- FOOTER -->
-			<footer id="footer">
+			<footer id="footer" class="<?php echo apply_filters('__footer_classes', '') ?>">
 			 	<?php do_action( '__footer' ); // hook of footer widget and colophon?>
 			</footer>
 

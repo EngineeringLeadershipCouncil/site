@@ -28,7 +28,10 @@ class TC___ {
             'header' ,
             'content',
             'footer',
-            'addons' 
+            'addons'
+            ///important :always run firepro group before pro group
+            //'firepro',
+            //'pro' 
         );
 
         /* GET INFORMATIONS FROM STYLE.CSS */

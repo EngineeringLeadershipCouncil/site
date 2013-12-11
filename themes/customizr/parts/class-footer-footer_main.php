@@ -101,7 +101,7 @@ class TC_footer_main {
 				    <?php 
 					    //colophon blocks actions priorities
 				        add_action ( '__colophon', array( $this , 'tc_social_in_footer' ), 10 );
-				        add_action ( '__colophon', array( $this , 'tc_credits_display' ), 20 , 2 );
+				        add_action ( '__colophon', array( $this , 'tc_credits_display' ), 20 );
 				        add_action ( '__colophon', array( $this , 'tc_back_to_top_display' ), 30 );
 					    
 					    //renders blocks
@@ -159,7 +159,7 @@ class TC_footer_main {
 	 * @package Customizr
 	 * @since Customizr 3.0.6
 	 */
-    function tc_credits_display( $site_credits = null, $tc_credits = null ) {
+    function tc_credits_display() {
     	tc__f('rec' , __FILE__ , __FUNCTION__, __CLASS__ );
     	?>
 

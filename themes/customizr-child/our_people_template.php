@@ -49,4 +49,4 @@ Template Name: our_people_template
     <?php do_action( '__after_main_container' ); ?>
 </div><!--#main-wrapper"-->
 <?php do_action( '__after_main_wrapper' );##hooks the footer with get_get_footer ?>
-<script type="text/javascript" src="http://ec2-54-200-246-251.us-west-2.compute.amazonaws.com/wp-content/themes/customizr-child/js/our_people.js"></script>
+<script type="text/javascript" src="/wp-content/themes/customizr-child/js/our_people.js"></script>

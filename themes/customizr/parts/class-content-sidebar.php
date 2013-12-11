@@ -101,7 +101,7 @@ class TC_sidebar {
 
         $html = ob_get_contents();
         ob_end_clean();
-        echo apply_filters( 'tc_sidebar_display', $html );
+        echo apply_filters( 'tc_sidebar_display', $html, $sidebar, $position );
     }//end of function
 
 

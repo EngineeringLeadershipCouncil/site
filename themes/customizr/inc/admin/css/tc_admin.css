@@ -28,6 +28,17 @@
 	box-shadow: none;
 }
 
+
+.images-stagger-right img {
+	float: right;
+	padding-left: 20px;
+}
+
+.images-stagger-left img {
+	float: left;
+	padding-right: 20px;
+}
+
 .tc-follow {
 	margin-bottom: 11px;
 }
@@ -164,10 +175,13 @@ h1.need-help-title:before {
 }
 
 .button-secondary.customizr-help {
-	line-height: 49px;
+	line-height: 25px;
+	padding-top: 11px;
 	height: 51px;
 	font-size: 20px;
 	font-family: 'georgia';
+	width: 95%;
+	white-space: normal;
 }
 
 .about-wrap #showcase .feature-section img {

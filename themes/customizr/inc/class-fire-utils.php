@@ -213,7 +213,7 @@ class TC_utils {
       * @since Customizr 1.0
       */
       function tc_get_the_ID()  {
-          if (is_404() || is_search()) {
+          if ( is_404() || is_search() || is_archive() ) {
             return null;
           }
           else {
@@ -294,8 +294,9 @@ class TC_utils {
         }
         
 
-        if((is_home() && $tc_what_on_front == 'posts' ) || is_front_page())
+        if((is_home() && $tc_what_on_front == 'posts' ) || is_front_page()) {
            $tc_specific_post_layout = $tc_front_layout;
+        }
 
         if( $tc_specific_post_layout) {
             $tc_screen_layout = array(
@@ -324,7 +325,7 @@ class TC_utils {
     function tc_fancybox_content_filter( $content) {
       $tc_fancybox = esc_attr( tc__f( '__get_option' , 'tc_fancybox' ) );
 
-      if ( $tc_fancybox == 1 ) 
+      if ( 1 == $tc_fancybox ) 
       {
            global $post;
            $pattern ="/<a(.*?)href=( '|\")(.*?).(bmp|gif|jpeg|jpg|png)( '|\")(.*?)>/i";

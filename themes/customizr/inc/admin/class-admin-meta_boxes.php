@@ -552,14 +552,17 @@ class TC_meta_boxes {
         $default_description    = $attachment->post_excerpt;
         
         //title field setup
-        $title_id      = 'slide_title_field';
-        $title_value   = esc_attr(get_post_meta( $postid, $key = 'slide_title_key' , $single = true ));
+        $title_id               = 'slide_title_field';
+        $title_value            = esc_attr(get_post_meta( $postid, $key = 'slide_title_key' , $single = true ));
+        //we define a filter for the slide_text_length
+        $default_title_length   = apply_filters( '__slide_title_length', 80 );
+
         //check if we already have a custom key created for this field, if not apply default value
-        
-        if(!in_array( 'slide_title_key' ,get_post_custom_keys( $postid)))
+        if(!in_array( 'slide_title_key' ,get_post_custom_keys( $postid))) {
           $title_value = $default_title;
-        if (strlen( $title_value) > 80) {
-          $title_value = substr( $title_value,0,strpos( $title_value, ' ' ,80));
+        }
+        if (strlen( $title_value) > $default_title_length) {
+          $title_value = substr( $title_value,0,strpos( $title_value, ' ' , $default_title_length));
           $title_value = esc_html( $title_value) . ' ...';
         }
         else {
@@ -570,12 +573,15 @@ class TC_meta_boxes {
         //text_field setup : sanitize and limit length
         $text_id        = 'slide_text_field';
         $text_value     = esc_html(get_post_meta( $postid, $key = 'slide_text_key' , $single = true ));
+         //we define a filter for the slide_title_length
+        $default_text_length   = apply_filters( '__slide_text_length', 250 );
+
          //check if we already have a custom key created for this field, if not apply default value
         if(!in_array( 'slide_text_key' ,get_post_custom_keys( $postid)))
           $text_value = $default_description;
 
-        if (strlen( $text_value) > 250) {
-          $text_value = substr( $text_value,0,strpos( $text_value, ' ' ,250));
+        if (strlen( $text_value) > $default_text_length) {
+          $text_value = substr( $text_value,0,strpos( $text_value, ' ' ,$default_text_length));
           $text_value = $text_value . ' ...';
         }
         else {
@@ -589,8 +595,11 @@ class TC_meta_boxes {
         //button field setup
         $button_id      = 'slide_button_field';
         $button_value   = esc_attr(get_post_meta( $postid, $key = 'slide_button_key' , $single = true ));
-         if (strlen( $button_value) > 80) {
-          $button_value = substr( $button_value,0,strpos( $button_value, ' ' ,80));
+        //we define a filter for the slide text_button length
+        $default_button_length   = apply_filters( '__slide_button_length', 80 );
+
+        if (strlen( $button_value) > $default_button_length) {
+          $button_value = substr( $button_value,0,strpos( $button_value, ' ' ,$default_button_length));
           $button_value = $button_value . ' ...';
         }
         else {
@@ -783,8 +792,9 @@ class TC_meta_boxes {
                     //different sanitizations
                    
                     case 'slide_text_key':
-                        if (strlen( $mydata) > 250) {
-                        $mydata = substr( $mydata,0,strpos( $mydata, ' ' ,250));
+                        $default_text_length = apply_filters( '__slide_text_length', 250 );
+                        if (strlen( $mydata) > $default_text_length) {
+                        $mydata = substr( $mydata,0,strpos( $mydata, ' ' ,$default_text_length));
                         $mydata = esc_html( $mydata) . ' ...';
                         }
                         else {
@@ -793,7 +803,8 @@ class TC_meta_boxes {
                       break;
 
                     default://for button, color, title and post link field (actually not a link but an id)
-                       if (strlen( $mydata) > 80) {
+                        $default_title_length = apply_filters( '__slide_title_length', 80 );
+                       if (strlen( $mydata) > $default_title_length) {
                         $mydata = substr( $mydata,0,strpos( $mydata, ' ' ,80));
                         $mydata = esc_attr( $mydata) . ' ...';
                         }
@@ -1236,8 +1247,9 @@ class TC_meta_boxes {
                         //check if we add this attachment to a slider for the first time : do we have custom fields defined in DB and are the input fields existing in the DOM (sent by Ajax)?
 
                              $mydata = sanitize_text_field( $_POST[$tcid] );
-                             if (strlen( $mydata) > 80) {
-                              $mydata = substr( $mydata,0,strpos( $mydata, ' ' ,80));
+                             $default_button_length = apply_filters( '__slide_button_length', 80 );
+                             if (strlen( $mydata) > $default_button_length) {
+                              $mydata = substr( $mydata,0,strpos( $mydata, ' ' ,$default_button_length));
                               $mydata = esc_attr( $mydata) . ' ...';
                               }
                               else {

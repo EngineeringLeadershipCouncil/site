@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Customizr 1.1.5\n"
-"POT-Creation-Date: 2013-09-17 18:54+0100\n"
-"PO-Revision-Date: 2013-09-17 18:54+0100\n"
-"Last-Translator: Nico <nguillaume@gmail.com>\n"
+"POT-Creation-Date: 2013-11-05 11:15+0100\n"
+"PO-Revision-Date: 2013-11-05 11:16+0100\n"
+"Last-Translator: Nico <contact@themesandco.com>\n"
 "Language-Team: Nicolas G. <contact@themesandco.com>\n"
 "Language: Français\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 msgid "Leave a Comment"
 msgstr "Kommentar erstellen"
 
-#: ../inc/class-fire-init.php:56
+#: ../inc/class-fire-init.php:72
 msgid "Main Menu"
 msgstr "Hauptmenü"
 
-#: ../inc/class-fire-utils.php:366
+#: ../inc/class-fire-utils.php:367
 #, php-format
 msgid "Page %s"
 msgstr "Seite %s"
@@ -68,252 +68,252 @@ msgstr "Customiz'it!"
 msgid "Customize your website at any time!"
 msgstr "Passen Sie Ihre Website zu jeder Zeit an!"
 
-#: ../inc/admin/class-admin-customize.php:129
+#: ../inc/admin/class-admin-customize.php:132
 msgid "Blue"
 msgstr "Blau"
 
-#: ../inc/admin/class-admin-customize.php:130
+#: ../inc/admin/class-admin-customize.php:133
 msgid "Green"
 msgstr "Grün"
 
-#: ../inc/admin/class-admin-customize.php:131
+#: ../inc/admin/class-admin-customize.php:134
 msgid "Yellow"
 msgstr "Gelb"
 
-#: ../inc/admin/class-admin-customize.php:132
+#: ../inc/admin/class-admin-customize.php:135
 msgid "Orange"
 msgstr "Orange"
 
-#: ../inc/admin/class-admin-customize.php:133
+#: ../inc/admin/class-admin-customize.php:136
 msgid "Red"
 msgstr "Rot"
 
-#: ../inc/admin/class-admin-customize.php:134
+#: ../inc/admin/class-admin-customize.php:137
 msgid "Purple"
 msgstr "Lila"
 
-#: ../inc/admin/class-admin-customize.php:135
+#: ../inc/admin/class-admin-customize.php:138
 msgid "Grey"
 msgstr "Grau"
 
-#: ../inc/admin/class-admin-customize.php:136
+#: ../inc/admin/class-admin-customize.php:139
 msgid "Black"
 msgstr "Schwarz"
 
-#: ../inc/admin/class-admin-customize.php:152
+#: ../inc/admin/class-admin-customize.php:156
 msgid "&mdash; No slider &mdash;"
 msgstr "&mdash; Kein Slider &mdash;"
 
-#: ../inc/admin/class-admin-customize.php:153
+#: ../inc/admin/class-admin-customize.php:157
 msgid "&mdash; Demo Slider &mdash;"
 msgstr "&mdash; Demo-Slider &mdash;"
 
-#: ../inc/admin/class-admin-customize.php:187
+#: ../inc/admin/class-admin-customize.php:191
 msgid "Skin"
 msgstr "Design"
 
-#: ../inc/admin/class-admin-customize.php:189
+#: ../inc/admin/class-admin-customize.php:193
 msgid "Select a skin for Customizr"
 msgstr "Wählen Sie ein Design für Customizr"
 
-#: ../inc/admin/class-admin-customize.php:193
+#: ../inc/admin/class-admin-customize.php:197
 msgid "Logo &amp; Favicon"
 msgstr "Logo &amp; Favicon"
 
-#: ../inc/admin/class-admin-customize.php:195
+#: ../inc/admin/class-admin-customize.php:199
 msgid "Set up logo and favicon options"
 msgstr "Logo- und Favicon-Optionen"
 
-#: ../inc/admin/class-admin-customize.php:199
+#: ../inc/admin/class-admin-customize.php:203
 msgid "Front Page"
 msgstr "Startseite"
 
-#: ../inc/admin/class-admin-customize.php:201
+#: ../inc/admin/class-admin-customize.php:205
 msgid "Set up front page options"
 msgstr "Startseitenoptionen"
 
-#: ../inc/admin/class-admin-customize.php:205
+#: ../inc/admin/class-admin-customize.php:209
 msgid "Pages &amp; Posts Layout"
 msgstr "Seiten- & Beitrags-Layout"
 
-#: ../inc/admin/class-admin-customize.php:207
+#: ../inc/admin/class-admin-customize.php:211
 msgid "Set up layout options"
 msgstr "Layout-Optionen"
 
-#: ../inc/admin/class-admin-customize.php:211
+#: ../inc/admin/class-admin-customize.php:215
 msgid "Comments"
 msgstr "Kommentare"
 
-#: ../inc/admin/class-admin-customize.php:213
+#: ../inc/admin/class-admin-customize.php:217
 msgid "Set up comments options"
 msgstr "Kommentaroptionen"
 
-#: ../inc/admin/class-admin-customize.php:217
+#: ../inc/admin/class-admin-customize.php:221
 #: ../parts/class-content-sidebar.php:134
 msgid "Social links"
 msgstr "Soziale Links"
 
-#: ../inc/admin/class-admin-customize.php:219
+#: ../inc/admin/class-admin-customize.php:223
 msgid "Set up your social links"
 msgstr "Richten Sie Ihre sozialen Links ein"
 
-#: ../inc/admin/class-admin-customize.php:223
+#: ../inc/admin/class-admin-customize.php:227
 msgid "Images"
 msgstr "Bilder"
 
-#: ../inc/admin/class-admin-customize.php:225
-#: ../inc/admin/class-admin-customize.php:767
+#: ../inc/admin/class-admin-customize.php:229
+#: ../inc/admin/class-admin-customize.php:784
 msgid "Enable/disable lightbox effect on images"
 msgstr "An-/ausschalten des Zoomeffekts für Bilder"
 
-#: ../inc/admin/class-admin-customize.php:235
+#: ../inc/admin/class-admin-customize.php:239
 msgid "Custom CSS"
 msgstr "Individuelles CSS"
 
-#: ../inc/admin/class-admin-customize.php:237
+#: ../inc/admin/class-admin-customize.php:241
 msgid "Add your own CSS"
 msgstr "Fügen Sie eigenes CSS hinzu"
 
-#: ../inc/admin/class-admin-customize.php:241
+#: ../inc/admin/class-admin-customize.php:245
 msgid "Dev Tools (advanced users)"
 msgstr "Entwickler-Tools (Experten)"
 
-#: ../inc/admin/class-admin-customize.php:243
+#: ../inc/admin/class-admin-customize.php:247
 msgid "Enable/disable the Dev Tools"
 msgstr "Entwickler-Tool Ein/Aus"
 
-#: ../inc/admin/class-admin-customize.php:269
+#: ../inc/admin/class-admin-customize.php:273
 msgid "Manage menus"
 msgstr "Menüs verwalten"
 
-#: ../inc/admin/class-admin-customize.php:280
+#: ../inc/admin/class-admin-customize.php:284
 msgid "Choose a predefined skin"
 msgstr "Wählen Sie ein vordefiniertes Design"
 
-#: ../inc/admin/class-admin-customize.php:289
+#: ../inc/admin/class-admin-customize.php:293
 msgid "Display top border"
 msgstr "Oberen Randstreifen anzeigen"
 
-#: ../inc/admin/class-admin-customize.php:293
+#: ../inc/admin/class-admin-customize.php:297
 msgid "Uncheck this option to remove the colored top border."
 msgstr ""
 "Deaktivieren Sie diese Option, um den farbigen oberen Rand auszublenden."
 
-#: ../inc/admin/class-admin-customize.php:303
+#: ../inc/admin/class-admin-customize.php:307
 msgid "Logo Upload (supported formats : .jpg, .png, .gif)"
 msgstr "Logo-Upload (Formate : .jpg, .png, .gif)"
 
-#: ../inc/admin/class-admin-customize.php:310
+#: ../inc/admin/class-admin-customize.php:314
 msgid "Force logo dimensions to max-width:250px and max-height:100px"
 msgstr "Logoabmessungen erzwingen, max-Breite: 250px und max-Höhe: 100px"
 
-#: ../inc/admin/class-admin-customize.php:325
+#: ../inc/admin/class-admin-customize.php:329
 msgid "Favicon Upload (supported formats : .ico, .png, .gif)"
 msgstr "Favicon-Upload (Formate : .ico, .png, .gif)"
 
-#: ../inc/admin/class-admin-customize.php:337
+#: ../inc/admin/class-admin-customize.php:341
 msgid "Choose content and layout"
 msgstr "Inhalt und Layout wählen"
 
-#: ../inc/admin/class-admin-customize.php:345
+#: ../inc/admin/class-admin-customize.php:349
 msgid "Front page displays"
 msgstr "Startseite zeigt:"
 
-#: ../inc/admin/class-admin-customize.php:350
+#: ../inc/admin/class-admin-customize.php:354
 msgid "Don't show any posts or page"
 msgstr "Keine Artikel oder Seiten anezeigen"
 
-#: ../inc/admin/class-admin-customize.php:351
+#: ../inc/admin/class-admin-customize.php:355
 msgid "Your latest posts"
 msgstr "Ihre letzten Beiträge"
 
-#: ../inc/admin/class-admin-customize.php:352
+#: ../inc/admin/class-admin-customize.php:356
 msgid "A static page"
 msgstr "Eine statische Seite"
 
-#: ../inc/admin/class-admin-customize.php:358
+#: ../inc/admin/class-admin-customize.php:362
 msgid "Front page"
 msgstr "Startseite"
 
-#: ../inc/admin/class-admin-customize.php:366
+#: ../inc/admin/class-admin-customize.php:370
 msgid "Posts page"
 msgstr "Beitragsseite"
 
-#: ../inc/admin/class-admin-customize.php:375
+#: ../inc/admin/class-admin-customize.php:379
 msgid "Set up the front page layout"
 msgstr "Startseitenlayout festlegen"
 
-#: ../inc/admin/class-admin-customize.php:379
-#: ../inc/admin/class-admin-customize.php:547
-#: ../inc/admin/class-admin-customize.php:573
-#: ../inc/admin/class-admin-customize.php:601
+#: ../inc/admin/class-admin-customize.php:383
+#: ../inc/admin/class-admin-customize.php:551
+#: ../inc/admin/class-admin-customize.php:577
+#: ../inc/admin/class-admin-customize.php:618
 #: ../inc/admin/class-admin-meta_boxes.php:130
 msgid "Right sidebar"
 msgstr "rechte Seitenleiste"
 
-#: ../inc/admin/class-admin-customize.php:380
-#: ../inc/admin/class-admin-customize.php:548
-#: ../inc/admin/class-admin-customize.php:574
-#: ../inc/admin/class-admin-customize.php:602
+#: ../inc/admin/class-admin-customize.php:384
+#: ../inc/admin/class-admin-customize.php:552
+#: ../inc/admin/class-admin-customize.php:578
+#: ../inc/admin/class-admin-customize.php:619
 #: ../inc/admin/class-admin-meta_boxes.php:131
 msgid "Left sidebar"
 msgstr "linke Seitenleiste"
 
-#: ../inc/admin/class-admin-customize.php:381
-#: ../inc/admin/class-admin-customize.php:549
-#: ../inc/admin/class-admin-customize.php:575
-#: ../inc/admin/class-admin-customize.php:603
+#: ../inc/admin/class-admin-customize.php:385
+#: ../inc/admin/class-admin-customize.php:553
+#: ../inc/admin/class-admin-customize.php:579
+#: ../inc/admin/class-admin-customize.php:620
 msgid "2 sidebars : Right and Left"
 msgstr "2 Seitenleisten: rechts und links"
 
-#: ../inc/admin/class-admin-customize.php:382
-#: ../inc/admin/class-admin-customize.php:550
-#: ../inc/admin/class-admin-customize.php:576
-#: ../inc/admin/class-admin-customize.php:604
+#: ../inc/admin/class-admin-customize.php:386
+#: ../inc/admin/class-admin-customize.php:554
+#: ../inc/admin/class-admin-customize.php:580
+#: ../inc/admin/class-admin-customize.php:621
 msgid "No sidebars : full width layout"
 msgstr "Keine Seitenleiste: Gesamtbreiten-Layout"
 
-#: ../inc/admin/class-admin-customize.php:391
+#: ../inc/admin/class-admin-customize.php:395
 msgid "Slider options"
 msgstr "Slider Optionen"
 
-#: ../inc/admin/class-admin-customize.php:392
+#: ../inc/admin/class-admin-customize.php:396
 msgid "Select front page slider"
 msgstr "Startseiten-Slider wählen"
 
-#: ../inc/admin/class-admin-customize.php:404
+#: ../inc/admin/class-admin-customize.php:408
 msgid "Full width slider"
 msgstr "Slider auf volle Breite"
 
-#: ../inc/admin/class-admin-customize.php:423
+#: ../inc/admin/class-admin-customize.php:427
 msgid "Delay between each slides"
 msgstr "Pause zwischen den einzelnen Folien"
 
-#: ../inc/admin/class-admin-customize.php:428
+#: ../inc/admin/class-admin-customize.php:432
 msgid "in ms : 1000ms = 1s"
 msgstr "in ms : 1000 ms = 1 Sekunde"
 
-#: ../inc/admin/class-admin-customize.php:436
+#: ../inc/admin/class-admin-customize.php:440
 msgid "Featured pages options"
 msgstr "Einstellungen \"Empfohlene Seiten\""
 
-#: ../inc/admin/class-admin-customize.php:437
+#: ../inc/admin/class-admin-customize.php:441
 msgid "Display home featured pages area"
 msgstr "\"Empfohlene Seiten\" auf Startseite anzeigen"
 
-#: ../inc/admin/class-admin-customize.php:441
+#: ../inc/admin/class-admin-customize.php:445
 msgid "Enable"
 msgstr "Zulassen"
 
-#: ../inc/admin/class-admin-customize.php:442
+#: ../inc/admin/class-admin-customize.php:446
 msgid "Disable"
 msgstr "Sperren"
 
-#: ../inc/admin/class-admin-customize.php:451
+#: ../inc/admin/class-admin-customize.php:455
 msgid "Show images"
 msgstr "Bilder anzeigen"
 
-#: ../inc/admin/class-admin-customize.php:454
+#: ../inc/admin/class-admin-customize.php:458
 msgid ""
 "The images are set with the \"featured image\" of each pages (in the page "
 "edit screen). Uncheck the option above to disable the featured page images."
@@ -321,33 +321,33 @@ msgstr ""
 "Das \"WP-Beitragsbild\" der jeweiligen Seite wird verwendet. Deaktivieren um "
 "kein Bilder anzuzeigen."
 
-#: ../inc/admin/class-admin-customize.php:460
+#: ../inc/admin/class-admin-customize.php:464
 msgid "Read more &raquo;"
 msgstr "Mehr dazu &raquo;"
 
-#: ../inc/admin/class-admin-customize.php:462
+#: ../inc/admin/class-admin-customize.php:466
 msgid "Button text"
 msgstr "Beschriftung der Schaltfläche"
 
-#: ../inc/admin/class-admin-customize.php:470
+#: ../inc/admin/class-admin-customize.php:474
 msgid "Home featured page one"
 msgstr "\"Empfohlene Seite\" #1"
 
-#: ../inc/admin/class-admin-customize.php:478
+#: ../inc/admin/class-admin-customize.php:482
 msgid "Home featured page two"
 msgstr "\"Empfohlene Seiten\" #2"
 
-#: ../inc/admin/class-admin-customize.php:486
+#: ../inc/admin/class-admin-customize.php:490
 msgid "Home featured page three"
 msgstr "\"Empfohlene Seiten\" #3"
 
-#: ../inc/admin/class-admin-customize.php:497
+#: ../inc/admin/class-admin-customize.php:501
 msgid "Featured text one (200 car. max)"
 msgstr "Text zu #1 (max. 200 Zeichen)"
 
-#: ../inc/admin/class-admin-customize.php:500
-#: ../inc/admin/class-admin-customize.php:512
-#: ../inc/admin/class-admin-customize.php:524
+#: ../inc/admin/class-admin-customize.php:504
+#: ../inc/admin/class-admin-customize.php:516
+#: ../inc/admin/class-admin-customize.php:528
 msgid ""
 "You need to select a page first. Leave this field empty if you want to use "
 "the page excerpt."
@@ -355,27 +355,27 @@ msgstr ""
 "Seite muss bereits ausgewählt sein. Der WP-Auszug wird benutzt wenn dieses "
 "Feld leer ist."
 
-#: ../inc/admin/class-admin-customize.php:509
+#: ../inc/admin/class-admin-customize.php:513
 msgid "Featured text two (200 car. max)"
 msgstr "Text zu #2 (max. 200 Zeichen)"
 
-#: ../inc/admin/class-admin-customize.php:521
+#: ../inc/admin/class-admin-customize.php:525
 msgid "Featured text three (200 car. max)"
 msgstr "Text zu #3 (max. 200 Zeichen)"
 
-#: ../inc/admin/class-admin-customize.php:534
+#: ../inc/admin/class-admin-customize.php:538
 msgid "Display Breadcrumb"
 msgstr "Brotkrumen anzeigen"
 
-#: ../inc/admin/class-admin-customize.php:543
+#: ../inc/admin/class-admin-customize.php:547
 msgid "Choose the global default layout"
 msgstr "Übergeordnetes Standardlayout"
 
-#: ../inc/admin/class-admin-customize.php:559
+#: ../inc/admin/class-admin-customize.php:563
 msgid "Force default layout everywhere"
 msgstr "Standardlayout überall erzwingen"
 
-#: ../inc/admin/class-admin-customize.php:562
+#: ../inc/admin/class-admin-customize.php:566
 msgid ""
 "This option will override the specific layouts on all posts/pages, including "
 "the front page."
@@ -383,23 +383,35 @@ msgstr ""
 "Diese Option überschreibt spezifische Layouts für alle Beiträge/Seiten, "
 "einschließlich der Startseite."
 
-#: ../inc/admin/class-admin-customize.php:569
+#: ../inc/admin/class-admin-customize.php:573
 msgid "Choose the posts default layout"
 msgstr "Wählen Sie das Standardlayout für Beiträge"
 
-#: ../inc/admin/class-admin-customize.php:586
+#: ../inc/admin/class-admin-customize.php:590
 msgid "Maximum number of posts per page"
 msgstr "Maximale Anzahl der Einträge pro Seite"
 
-#: ../inc/admin/class-admin-customize.php:597
+#: ../inc/admin/class-admin-customize.php:601
+msgid "Select the length of posts in lists (home, search, archives, ...)"
+msgstr ""
+
+#: ../inc/admin/class-admin-customize.php:605
+msgid "Display the excerpt"
+msgstr ""
+
+#: ../inc/admin/class-admin-customize.php:606
+msgid "Display the full content"
+msgstr ""
+
+#: ../inc/admin/class-admin-customize.php:614
 msgid "Choose the pages default layout"
 msgstr "Standardlayout für Seiten wählen"
 
-#: ../inc/admin/class-admin-customize.php:615
+#: ../inc/admin/class-admin-customize.php:632
 msgid "Enable comments on pages"
 msgstr "Kommentare auf Seiten aktivieren"
 
-#: ../inc/admin/class-admin-customize.php:618
+#: ../inc/admin/class-admin-customize.php:635
 msgid ""
 "This option will enable comments on pages. You can disable comments for a "
 "single page in the quick edit mode of the page list screen."
@@ -407,67 +419,67 @@ msgstr ""
 "Aktivierung der Seitenkommentare. Kann für einzelne Seiten im Quick-Edit-"
 "Modus individuell deaktiviert werden."
 
-#: ../inc/admin/class-admin-customize.php:628
+#: ../inc/admin/class-admin-customize.php:645
 msgid "Social links in header"
 msgstr "Soziale Links in Kopfzeile"
 
-#: ../inc/admin/class-admin-customize.php:636
+#: ../inc/admin/class-admin-customize.php:653
 msgid "Social links in left sidebar"
 msgstr "Soziale Links in linker Seitenleiste"
 
-#: ../inc/admin/class-admin-customize.php:644
+#: ../inc/admin/class-admin-customize.php:661
 msgid "Social links in right sidebar"
 msgstr "Soziale Links in rechter Seitenleiste"
 
-#: ../inc/admin/class-admin-customize.php:652
+#: ../inc/admin/class-admin-customize.php:669
 msgid "Social links in footer"
 msgstr "Soziale Links in Fußzeile"
 
-#: ../inc/admin/class-admin-customize.php:664
+#: ../inc/admin/class-admin-customize.php:681
 msgid "RSS feed (default is the wordpress feed)"
 msgstr "RSS-Feed(Standard ist der WP-Feed)"
 
-#: ../inc/admin/class-admin-customize.php:673
+#: ../inc/admin/class-admin-customize.php:690
 msgid "Twitter profile url"
 msgstr "Twitter-Profil-url"
 
-#: ../inc/admin/class-admin-customize.php:682
+#: ../inc/admin/class-admin-customize.php:699
 msgid "Facebook profile url"
 msgstr "Facebook-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:691
+#: ../inc/admin/class-admin-customize.php:708
 msgid "Google+ profile url"
 msgstr "Google+ Profil-url"
 
-#: ../inc/admin/class-admin-customize.php:700
+#: ../inc/admin/class-admin-customize.php:717
 msgid "Instagram profile url"
 msgstr "Instagram-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:709
+#: ../inc/admin/class-admin-customize.php:726
 msgid "WordPress profile url"
 msgstr "Wordpress-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:718
+#: ../inc/admin/class-admin-customize.php:735
 msgid "Youtube profile url"
 msgstr "Youtube-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:727
+#: ../inc/admin/class-admin-customize.php:744
 msgid "Pinterest profile url"
 msgstr "Pinterest-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:736
+#: ../inc/admin/class-admin-customize.php:753
 msgid "Github profile url"
 msgstr "Github-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:745
+#: ../inc/admin/class-admin-customize.php:762
 msgid "Dribbble profile url"
 msgstr "Dribbble-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:754
+#: ../inc/admin/class-admin-customize.php:771
 msgid "LinkedIn profile url"
 msgstr "LinkedIn-Profil url"
 
-#: ../inc/admin/class-admin-customize.php:770
+#: ../inc/admin/class-admin-customize.php:787
 msgid ""
 "If enabled, this option activate a popin window whith a zoom effect when an "
 "image is clicked. This will not apply to image gallery."
@@ -475,24 +487,24 @@ msgstr ""
 "Wenn aktiviert, erscheint ein Zoomeffekt, wenn ein Bild angeklickt wird. "
 "Dies gilt nicht für die Bildergalerie."
 
-#: ../inc/admin/class-admin-customize.php:776
+#: ../inc/admin/class-admin-customize.php:793
 msgid "Autoscale images on zoom"
 msgstr "Automatische Zoomskalierung"
 
-#: ../inc/admin/class-admin-customize.php:779
+#: ../inc/admin/class-admin-customize.php:796
 msgid ""
 "If enabled, this option will force images to fit the screen on lightbox zoom."
 msgstr ""
 "Wenn aktiviert, erzwingt diese Option eine Skalierung der Bilder um das "
 "Zoomfenster zu füllen."
 
-#: ../inc/admin/class-admin-customize.php:802
+#: ../inc/admin/class-admin-customize.php:819
 msgid "Add your custom css here and design live! (for advanced users)"
 msgstr ""
 "Fügen Sie hier Ihr benutzerdefiniertes CSS hinzu und gestalten es live! (Nur "
 "für fortgeschrittene Benutzer!)"
 
-#: ../inc/admin/class-admin-customize.php:805
+#: ../inc/admin/class-admin-customize.php:822
 msgid ""
 "Always use this field to add your custom css instead of editing directly the "
 "style.css file : it will not be deleted during theme updates. You can also "
@@ -502,16 +514,16 @@ msgstr ""
 "anstatt direkt die style.css-Datei zu ändern. Dies verhindert den Verlust "
 "der Änderungen durch ein Update des Themes."
 
-#: ../inc/admin/class-admin-customize.php:814
+#: ../inc/admin/class-admin-customize.php:831
 msgid "Developer Box"
 msgstr "Entwickler-Box"
 
-#: ../inc/admin/class-admin-customize.php:823
-#: ../inc/admin/class-admin-customize.php:841
+#: ../inc/admin/class-admin-customize.php:840
+#: ../inc/admin/class-admin-customize.php:858
 msgid "Only visible for logged in users with an admin profile."
 msgstr "Nur sichtbar für Administratoren."
 
-#: ../inc/admin/class-admin-customize.php:826
+#: ../inc/admin/class-admin-customize.php:843
 msgid ""
 "If enabled, this option displays a draggable information box to help you "
 "develop or debug your Customizr based website."
@@ -519,11 +531,11 @@ msgstr ""
 "Wenn aktiviert, zeigt diese Option ein verschiebbares Info-Feld an, das Sie "
 "bei Entwicklung/Debugging der Customizr-Website unterstützt."
 
-#: ../inc/admin/class-admin-customize.php:832
+#: ../inc/admin/class-admin-customize.php:849
 msgid "Developer tooltips"
 msgstr "Entwickler-Tooltipps"
 
-#: ../inc/admin/class-admin-customize.php:844
+#: ../inc/admin/class-admin-customize.php:861
 msgid ""
 "If enabled, this option displays clickable contextual tooltips right inside "
 "your website."
@@ -531,7 +543,7 @@ msgstr ""
 "Wenn aktiviert, zeigt diese Option klickbare, kontextbezogene Infosymbole "
 "direkt innerhalb der Website an."
 
-#: ../inc/admin/class-admin-customize.php:853
+#: ../inc/admin/class-admin-customize.php:870
 msgid "Tip icon color"
 msgstr "Farbe der Infosymbole"
 
@@ -619,12 +631,12 @@ msgid "Add a slider to this post/page"
 msgstr "Einen Slieder zum Beitrag/Seite hinzufügen"
 
 #: ../inc/admin/class-admin-meta_boxes.php:291
-#: ../inc/admin/class-admin-meta_boxes.php:668
+#: ../inc/admin/class-admin-meta_boxes.php:677
 msgid "Choose a slider"
 msgstr "Wählen Sie einen Slider"
 
 #: ../inc/admin/class-admin-meta_boxes.php:298
-#: ../inc/admin/class-admin-meta_boxes.php:683
+#: ../inc/admin/class-admin-meta_boxes.php:692
 msgid "&mdash; Select a slider &mdash; "
 msgstr "&mdash; Wählen Sie einen Slider &mdash; "
 
@@ -647,12 +659,12 @@ msgid "Slider Layout : set the slider in full width"
 msgstr "Slider-Layout: Stellen Sie den Slider in voller Breite"
 
 #: ../inc/admin/class-admin-meta_boxes.php:331
-#: ../inc/admin/class-admin-meta_boxes.php:692
+#: ../inc/admin/class-admin-meta_boxes.php:701
 msgid "Delete this slider"
 msgstr "Diesen Slider löschen"
 
 #: ../inc/admin/class-admin-meta_boxes.php:336
-#: ../inc/admin/class-admin-meta_boxes.php:696
+#: ../inc/admin/class-admin-meta_boxes.php:705
 msgid ""
 "The slider will be deleted permanently (images, call to actions and link "
 "will be kept)."
@@ -661,7 +673,7 @@ msgstr ""
 "werden beibehalten)."
 
 #: ../inc/admin/class-admin-meta_boxes.php:339
-#: ../inc/admin/class-admin-meta_boxes.php:699
+#: ../inc/admin/class-admin-meta_boxes.php:708
 msgid "Delete slider"
 msgstr "Slider löschen"
 
@@ -682,37 +694,37 @@ msgstr "Zum Slider hinzufügen"
 msgid "Add to a slider (create one if needed)"
 msgstr "Hinzufügen zu einen Slider (bei Bedarf neuen erstellen)"
 
-#: ../inc/admin/class-admin-meta_boxes.php:625
+#: ../inc/admin/class-admin-meta_boxes.php:634
 msgid "Title text (80 car. max length)"
 msgstr "Titeltext (max. 80 Zeichen)"
 
-#: ../inc/admin/class-admin-meta_boxes.php:632
+#: ../inc/admin/class-admin-meta_boxes.php:641
 msgid "Description text (below the title, 250 car. max length)"
 msgstr "Beschreibungstext (unterhalb des Titels, max. 250 Zeichen)"
 
-#: ../inc/admin/class-admin-meta_boxes.php:639
+#: ../inc/admin/class-admin-meta_boxes.php:648
 msgid "Title and text color"
 msgstr "Titel- und Textfarbe"
 
-#: ../inc/admin/class-admin-meta_boxes.php:647
+#: ../inc/admin/class-admin-meta_boxes.php:656
 msgid "Button text (80 car. max length)"
 msgstr "Schaltflächentext (max. 80 Zeichen)"
 
-#: ../inc/admin/class-admin-meta_boxes.php:654
+#: ../inc/admin/class-admin-meta_boxes.php:663
 msgid "Choose a linked page or post (among the last 100)."
 msgstr ""
 "Wählen Sie eine verknüpfte Seite, oder einen Beitrag (unter den letzten 100)."
 
-#: ../inc/admin/class-admin-meta_boxes.php:659
+#: ../inc/admin/class-admin-meta_boxes.php:668
 msgid "No link"
 msgstr "Keine Verknüpfung"
 
-#: ../inc/admin/class-admin-meta_boxes.php:689
-#: ../inc/admin/class-admin-meta_boxes.php:720
+#: ../inc/admin/class-admin-meta_boxes.php:698
+#: ../inc/admin/class-admin-meta_boxes.php:729
 msgid "Add a slider"
 msgstr "Slider hinzufügen"
 
-#: ../inc/admin/class-admin-meta_boxes.php:718
+#: ../inc/admin/class-admin-meta_boxes.php:727
 msgid ""
 "You haven't create any slider yet. Write a slider name and click on the "
 "button to add you first slider."
@@ -720,7 +732,7 @@ msgstr ""
 "Sie haben keine Slider erstellt. Geben Sie einen Slider-Namen ein und "
 "klicken Sie auf die Schaltfläche, um den ersten Slider hinzuzufügen."
 
-#: ../inc/admin/class-admin-meta_boxes.php:833
+#: ../inc/admin/class-admin-meta_boxes.php:844
 msgid ""
 "This slider has not slides to show. Go to the media library and start adding "
 "images to it."
@@ -728,27 +740,27 @@ msgstr ""
 "Dieser slider hat keine Folien. Gehen Sie zur Medienbibliothek und fügen Sie "
 "Bilder hinzu."
 
-#: ../inc/admin/class-admin-meta_boxes.php:843
+#: ../inc/admin/class-admin-meta_boxes.php:854
 msgid "Slide Image"
 msgstr "Folienbild"
 
-#: ../inc/admin/class-admin-meta_boxes.php:844
+#: ../inc/admin/class-admin-meta_boxes.php:855
 msgid "Title"
 msgstr "Titel"
 
-#: ../inc/admin/class-admin-meta_boxes.php:845
+#: ../inc/admin/class-admin-meta_boxes.php:856
 msgid "Slide Text"
 msgstr "Folientext"
 
-#: ../inc/admin/class-admin-meta_boxes.php:846
+#: ../inc/admin/class-admin-meta_boxes.php:857
 msgid "Button Text"
 msgstr "Schaltflächentext"
 
-#: ../inc/admin/class-admin-meta_boxes.php:847
+#: ../inc/admin/class-admin-meta_boxes.php:858
 msgid "Button Link"
 msgstr "Schaltflächenverknüpfung"
 
-#: ../inc/admin/class-admin-meta_boxes.php:848
+#: ../inc/admin/class-admin-meta_boxes.php:859
 #: ../parts/class-content-attachment.php:88
 #: ../parts/class-content-breadcrumb.php:614
 #: ../parts/class-content-breadcrumb.php:647
@@ -758,15 +770,15 @@ msgstr "Schaltflächenverknüpfung"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-#: ../inc/admin/class-admin-meta_boxes.php:889
+#: ../inc/admin/class-admin-meta_boxes.php:900
 msgid "No Image Selected"
 msgstr "Kein Bild ausgewählt"
 
-#: ../inc/admin/class-admin-meta_boxes.php:915
+#: ../inc/admin/class-admin-meta_boxes.php:926
 msgid "Edit this slide"
 msgstr "Diese Folie bearbeiten"
 
-#: ../inc/admin/class-admin-meta_boxes.php:917
+#: ../inc/admin/class-admin-meta_boxes.php:928
 msgid "Current slide"
 msgstr "Aktuelle Folie"
 
@@ -774,105 +786,89 @@ msgstr "Aktuelle Folie"
 msgid "Create a slider"
 msgstr "einen Slider erstellen "
 
-#: ../inc/admin/class-fire-admin_init.php:105
-#: ../inc/admin/class-fire-admin_init.php:106
+#: ../inc/admin/class-fire-admin_init.php:78
+#: ../inc/admin/class-fire-admin_init.php:79
 msgid "Upgrade WP"
 msgstr "Upgrade von WP"
 
-#: ../inc/admin/class-fire-admin_init.php:125
+#: ../inc/admin/class-fire-admin_init.php:98
 msgid "This theme requires WordPress 3.4+"
 msgstr "Das Theme erfordert WordPress 3.4 +"
 
-#: ../inc/admin/class-fire-admin_init.php:128
-#: ../inc/admin/class-fire-admin_init.php:129
+#: ../inc/admin/class-fire-admin_init.php:101
+#: ../inc/admin/class-fire-admin_init.php:102
 msgid "Upgrade Wordpress Now"
 msgstr "Wordpress jetzt upgraden"
 
-#: ../inc/admin/class-fire-admin_init.php:170
-#: ../inc/admin/class-fire-admin_init.php:171
+#: ../inc/admin/class-fire-admin_init.php:119
+#: ../inc/admin/class-fire-admin_init.php:120
 msgid "About Customizr"
 msgstr "Über Customizr"
 
-#: ../inc/admin/class-fire-admin_init.php:191
+#: ../inc/admin/class-fire-admin_init.php:140
 msgid "Help"
 msgstr "Hilfe"
 
-#: ../inc/admin/class-fire-admin_init.php:194
+#: ../inc/admin/class-fire-admin_init.php:143
 msgid "Need help with Customizr? Click here!"
 msgstr "Brauchen Sie Hilfe mit Customizr? Klicken Sie hier!"
 
-#: ../inc/admin/class-fire-admin_init.php:228
+#: ../inc/admin/class-fire-admin_init.php:169
 msgid "Need help with Customizr ?"
 msgstr "Brauchen Sie Hilfe mit Customizr?"
 
-#: ../inc/admin/class-fire-admin_init.php:230
+#: ../inc/admin/class-fire-admin_init.php:171
 #, php-format
 msgid "Welcome to Customizr %s"
 msgstr "Willkommen bei Customizr %s"
 
-#: ../inc/admin/class-fire-admin_init.php:236
+#: ../inc/admin/class-fire-admin_init.php:178
 #, php-format
 msgid ""
-"Thank you for updating to the latest version! Customizr %1$s has more "
-"features, is safer and more stable than ever <a href=\"#customizr-changelog"
-"\">(see changelog)</a> to help you build an awesome website. Watch the <a "
-"href=\"#introduction\">introduction video</a> and find inspiration in the <a "
-"href=\"#showcase\">showcase</a>.<br/> Enjoy it! "
-msgstr ""
-"Vielen Dank für die Aktualisierung auf die neueste Version! Customizr %1$ s "
-"hat mehr Funktionen, ist sicherer und stabiler als je zuvor <a href="
-"\"#customizr-changelog\"> (siehe Changelog)</a> um Ihnen zu helfen "
-"atemberaubende Websites zu gestalten. Schauen Sie sich das <a href="
-"\"#introduction\"> Einführungsvideo</a> an entdecken Sie Anregungen im <a "
-"href=\"#showcase\"> Showcase</a>. <br/> Viel Spaß!"
-
-#: ../inc/admin/class-fire-admin_init.php:245
-#, php-format
-msgid ""
-"You can start by watching the <a href=\"#introduction\">introduction video</"
-"a> or by reading <a href=\"%1$scustomizr\" target=\"_blank\">the "
-"documentation</a>.<br/> If you don't find an answer to your issue, don't "
-"panic! Since Customizr is used by a growing community of webmasters "
+"You can start by watching the <a href=\"%1$s\" target=\"_blank"
+"\">introduction video</a> or by reading <a href=\"%2$s\" target=\"_blank"
+"\">the documentation</a>.<br/> If you don't find an answer to your issue, "
+"don't panic! Since Customizr is used by a growing community of webmasters "
 "reporting bugs and making continuous improvements, you will probably find a "
 "solution to your problem either in the FAQ or in the user forum."
 msgstr ""
-"Schauen Sie sich das <a href=\"#introduction\"> Einführungsvideo</a> an, "
-"oder Lesen Sie die <a href=\"%1$scustomizr\" target=\"_blank\"> "
-"Dokumentation</a> um loszulegen. <br/> Wenn Sie eine Antwort auf Ihre Frage "
-"nicht finden, keine Panik! Da Customizr von einer wachsenden Gemeinschaft "
-"von Webmastern benutzt wird die Probleme und Verbesserungsvorschläge bei uns "
-"melden wird Customizr ständig weiterentwickelt. Wahrscheinlich finden Sie "
-"bereits eine Lösung für Ihr Problem in den FAQs oder in den User-Foren."
+"Schauen Sie sich das <a href=\"%1$s\" target=\"_blank\"> Einführungsvideo</"
+"a> an, oder Lesen Sie die <a href=\"%2$s\" target=\"_blank\"> Dokumentation</"
+"a> um loszulegen. <br/> Wenn Sie eine Antwort auf Ihre Frage nicht finden, "
+"keine Panik! Da Customizr von einer wachsenden Gemeinschaft von Webmastern "
+"benutzt wird die Probleme und Verbesserungsvorschläge bei uns melden wird "
+"Customizr ständig weiterentwickelt. Wahrscheinlich finden Sie bereits eine "
+"Lösung für Ihr Problem in den FAQs oder in den User-Foren."
 
-#: ../inc/admin/class-fire-admin_init.php:252
+#: ../inc/admin/class-fire-admin_init.php:186
 msgid "Read the documentation"
 msgstr "Lesen Sie die Dokumentation"
 
-#: ../inc/admin/class-fire-admin_init.php:256
+#: ../inc/admin/class-fire-admin_init.php:190
 msgid "Check the FAQ"
 msgstr "Schauen Sie in den FAQs nach"
 
-#: ../inc/admin/class-fire-admin_init.php:260
+#: ../inc/admin/class-fire-admin_init.php:194
 msgid "Discuss in the user forum"
 msgstr "Bitte im User-Forum diskutieren"
 
-#: ../inc/admin/class-fire-admin_init.php:268
+#: ../inc/admin/class-fire-admin_init.php:202
 #, php-format
 msgid ""
 "Thank you for using Customizr! Customizr %1$s has more features, is safer "
 "and more stable than ever <a href=\"#customizr-changelog\">(see the "
-"changelog)</a> to help you build an awesome website. Watch the <a href="
-"\"#introduction\">introduction video</a> and find inspiration in the <a href="
-"\"#showcase\">showcase</a>.<br/>Enjoy it! "
+"changelog)</a> to help you build an awesome website. Watch the <a href=\"%2$s"
+"\" target=\"_blank\">introduction video</a> and find inspiration in the <a "
+"href=\"#showcase\">showcase</a>.<br/>Enjoy it! "
 msgstr ""
-"Vielen Dank für die Verwendung von Customizr! Customizr %1$ s hat mehr "
+"Vielen Dank für die Verwendung von Customizr! Customizr %1$s hat mehr "
 "Funktionen, ist sicherer und stabiler als je zuvor <a href=\"#customizr-"
 "changelog\"> (siehe Changelog)</a> und wird Ihnen helfen atemberaubende "
-"Websites zu gestalten. Schauen Sie sich das <a href=\"#introduction\"> "
-"Einführungsvideo</a> an und holen Sie sich Anregungen im <a href=\"#showcase"
-"\"> Showcase</a>. <br/>Viel Spaß! "
+"Websites zu gestalten. Schauen Sie sich das <a href=\"%2$s\" target=\"_blank"
+"\"> Einführungsvideo</a> an und holen Sie sich Anregungen im <a href="
+"\"#showcase\"> Showcase</a>. <br/>Viel Spaß! "
 
-#: ../inc/admin/class-fire-admin_init.php:285
+#: ../inc/admin/class-fire-admin_init.php:216
 #, php-format
 msgid ""
 "You are using a child theme of Customizr %1$s : always check the %2$s after "
@@ -882,11 +878,11 @@ msgstr ""
 "immer die %2$ s nach der Aktualisierung um festzustellen, ob eine Funktion "
 "oder eine Vorlage als veraltet gilt."
 
-#: ../inc/admin/class-fire-admin_init.php:300
+#: ../inc/admin/class-fire-admin_init.php:231
 msgid "We need sponsors!"
 msgstr "Wir brauchen Sponsoren!"
 
-#: ../inc/admin/class-fire-admin_init.php:301
+#: ../inc/admin/class-fire-admin_init.php:232
 msgid ""
 "<strong>We do our best do make Customizr the perfect free theme for you!</"
 "strong><br/> Please help support it's continued development with a donation "
@@ -896,11 +892,11 @@ msgstr ""
 "für Sie zu machen!</strong> <br/> Helfen Sie bitte mit einer Spende von $20, "
 "$50 oder sogar 100 $ bei der Weiterentwicklung mit."
 
-#: ../inc/admin/class-fire-admin_init.php:308
+#: ../inc/admin/class-fire-admin_init.php:239
 msgid "Happy user of Customizr?"
 msgstr "Zufriedener Customizr-Benutzer?"
 
-#: ../inc/admin/class-fire-admin_init.php:309
+#: ../inc/admin/class-fire-admin_init.php:240
 msgid ""
 "If you are happy with the theme, say it on wordpress.org and give Customizr "
 "a nice review! <br />(We are addicted to your feedbacks...)"
@@ -909,19 +905,19 @@ msgstr ""
 "mit und geben Customizr eine positive Bewertung! <br/>(Wir sehnen uns nach "
 "Ihrem  Feedback...)"
 
-#: ../inc/admin/class-fire-admin_init.php:314
+#: ../inc/admin/class-fire-admin_init.php:245
 msgid "Follow us"
 msgstr "Folgen Sie mir"
 
-#: ../inc/admin/class-fire-admin_init.php:333
+#: ../inc/admin/class-fire-admin_init.php:253
 msgid "New! Customizr Developer Tools"
 msgstr "NEU! Customizr Entwickler-Tools"
 
-#: ../inc/admin/class-fire-admin_init.php:337
+#: ../inc/admin/class-fire-admin_init.php:257
 msgid "Easily drill down into Customizr code with the dev tools!"
 msgstr "Tauchen Sie mit den Entwickler-Tools in den Customizr-Code ein!"
 
-#: ../inc/admin/class-fire-admin_init.php:338
+#: ../inc/admin/class-fire-admin_init.php:258
 msgid ""
 "A new section called \"Dev Tools\" has been added to the customizer options."
 "<br/> There you will find two optional new features : <br/><strong>-The "
@@ -954,21 +950,21 @@ msgstr ""
 "><i>Diese Werkzeuge werden nur Benutzern die mit einem Admin-Profil "
 "angemeldet sind angezeigt.</i>"
 
-#: ../inc/admin/class-fire-admin_init.php:345
+#: ../inc/admin/class-fire-admin_init.php:265
 msgid "Customizr Showcase"
 msgstr "Customizr-Showcase"
 
-#: ../inc/admin/class-fire-admin_init.php:348
-#: ../inc/admin/class-fire-admin_init.php:355
+#: ../inc/admin/class-fire-admin_init.php:268
+#: ../inc/admin/class-fire-admin_init.php:275
 msgid "Visit the showcase"
 msgstr ""
 
-#: ../inc/admin/class-fire-admin_init.php:349
+#: ../inc/admin/class-fire-admin_init.php:269
 msgid "Find inspiration for your next Customizr based website!"
 msgstr ""
 "Lassen Sie sich für Ihre nächste Customizr basierte Website inspirieren!"
 
-#: ../inc/admin/class-fire-admin_init.php:350
+#: ../inc/admin/class-fire-admin_init.php:270
 msgid ""
 "This showcase aims to show what can be done with Customizr and helping other "
 "users to find inspiration for their web design."
@@ -976,7 +972,7 @@ msgstr ""
 "Dieser Präsentation soll zeigen, was mit Customizr getan werden kann und "
 "anderen Nutzern helfen Inspiration für ihr Webdesign zu erhalten."
 
-#: ../inc/admin/class-fire-admin_init.php:352
+#: ../inc/admin/class-fire-admin_init.php:272
 msgid ""
 "Do you think you made an awesome website that can inspire people? Submitting "
 "a site for review is quick and easy to do."
@@ -985,31 +981,18 @@ msgstr ""
 "Menschen begeistert? Dann reichen Sie diese zur Ansicht ein. Schnell und "
 "einfach."
 
-#: ../inc/admin/class-fire-admin_init.php:362
-msgid "Discover Customizr : quick video introduction"
-msgstr "Entdecken Sie Customizr: kurzes Einführungsvideo"
-
-#: ../inc/admin/class-fire-admin_init.php:372
+#: ../inc/admin/class-fire-admin_init.php:282
 #, php-format
 msgid "Changelog in version %1$s"
 msgstr "Changelog zu Version %1$s"
 
-#: ../inc/admin/class-fire-admin_init.php:381
+#: ../inc/admin/class-fire-admin_init.php:291
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Zum Dashboard &rarr; Startseite"
 
-#: ../inc/admin/class-fire-admin_init.php:381
+#: ../inc/admin/class-fire-admin_init.php:291
 msgid "Go to Dashboard"
 msgstr "Zum Dashboard"
-
-#: ../inc/admin/class-fire-admin_init.php:419
-#, php-format
-msgid ""
-"Welcome to the new version of Customizr. You will be redirected to the About "
-"screen. If not, click <a href=\"%1$s\">here</a>."
-msgstr ""
-"Willkommen Sie zur neuen Version von Customizr. Sie werden zum „Info“-"
-"Bildschirm umgeleitet. Falls nicht, bitte <a href=\"%1$s\"> hier</a> klicken."
 
 #: ../parts/class-content-404.php:67
 msgid "Ooops, page not found"
@@ -1218,17 +1201,17 @@ msgid "Edit page"
 msgstr "Seite bearbeiten"
 
 #: ../parts/class-content-page.php:84 ../parts/class-content-post.php:149
-#: ../parts/class-content-post_list.php:189
+#: ../parts/class-content-post_list.php:192
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../parts/class-content-page.php:87 ../parts/class-content-post.php:150
-#: ../parts/class-content-post_list.php:190
+#: ../parts/class-content-post_list.php:193
 msgid "Pages:"
 msgstr "Seiten:"
 
 #: ../parts/class-content-post.php:196
-#: ../parts/class-content-post_list.php:423
+#: ../parts/class-content-post_list.php:428
 #, php-format
 msgid "About %s"
 msgstr "Über %s"
@@ -1247,46 +1230,46 @@ msgstr "Permalink zu %s"
 msgid "{no title} Read the post &raquo;"
 msgstr "{kein Titel} Beitrag lesen &raquo;"
 
-#: ../parts/class-content-post_list.php:376
+#: ../parts/class-content-post_list.php:381
 #, php-format
 msgid "%1sSearch Results for: %2s"
 msgstr "%1sSuchergebnisse zu: %2s"
 
-#: ../parts/class-content-post_list.php:377
+#: ../parts/class-content-post_list.php:382
 msgid "No"
 msgstr "Nein"
 
-#: ../parts/class-content-post_list.php:414
+#: ../parts/class-content-post_list.php:419
 #, php-format
 msgid "Author Archives: %s"
 msgstr "Autorenarchive: %s"
 
-#: ../parts/class-content-post_list.php:458
+#: ../parts/class-content-post_list.php:463
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Kategoriearchive: %s"
 
-#: ../parts/class-content-post_list.php:490
+#: ../parts/class-content-post_list.php:495
 #, php-format
 msgid "Tag Archives: %s"
 msgstr "Tagging-Archive: %s"
 
-#: ../parts/class-content-post_list.php:524
+#: ../parts/class-content-post_list.php:529
 #, php-format
 msgid "Daily Archives: %s"
 msgstr "Tägliche Archive: %s"
 
-#: ../parts/class-content-post_list.php:526
+#: ../parts/class-content-post_list.php:531
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr "Monatliche Archive: %s"
 
-#: ../parts/class-content-post_list.php:528
+#: ../parts/class-content-post_list.php:533
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr "Jährliche Archive: %s"
 
-#: ../parts/class-content-post_list.php:530
+#: ../parts/class-content-post_list.php:535
 msgid "Archives"
 msgstr "Archive"
 
@@ -1368,7 +1351,7 @@ msgstr "Abonnieren Sie meinen RSS-Feed"
 msgid "Back to top"
 msgstr "Zurück zum Anfang"
 
-#: ../parts/class-header-header_main.php:142
+#: ../parts/class-header-header_main.php:161
 msgid "Back Home"
 msgstr "Zurück zur Startseite"
 
@@ -1376,24 +1359,24 @@ msgstr "Zurück zur Startseite"
 msgid "Add a menu"
 msgstr "Menü hinzufügen"
 
-#: ../parts/class-header-slider.php:92 ../parts/class-header-slider.php:95
+#: ../parts/class-header-slider.php:96 ../parts/class-header-slider.php:99
 msgid "Customizr is a clean responsive theme"
 msgstr "Customizr ist ein sauberes, selbstreagierendes Theme"
 
-#: ../parts/class-header-slider.php:96
+#: ../parts/class-header-slider.php:100
 msgid "Let your creativity speak and easily customiz'it the way you want!"
 msgstr ""
 "Lassen Sie Ihrer Kreativität freien Lauf und „customiz'it“ wie Sie wollen!"
 
-#: ../parts/class-header-slider.php:97
+#: ../parts/class-header-slider.php:101
 msgid "Learn more"
 msgstr "Weitere Informationen"
 
-#: ../parts/class-header-slider.php:102 ../parts/class-header-slider.php:105
+#: ../parts/class-header-slider.php:106 ../parts/class-header-slider.php:109
 msgid "Style your WordPress site live!"
 msgstr "Gestalten Sie Ihre WordPress-Website live!"
 
-#: ../parts/class-header-slider.php:106
+#: ../parts/class-header-slider.php:110
 msgid ""
 "Many layout and design options are available from the WordPress customizer "
 "screen : see your changes live !"
@@ -1401,15 +1384,15 @@ msgstr ""
 "Viele Layout- und Designoptionen stehen über den WordPress-Customizr-"
 "Bildschirm bereit: Sehen Sie Änderungen sofort!"
 
-#: ../parts/class-header-slider.php:107
+#: ../parts/class-header-slider.php:111
 msgid "Just try it!"
 msgstr "Versuchen Sie es einfach!"
 
-#: ../parts/class-header-slider.php:112 ../parts/class-header-slider.php:115
+#: ../parts/class-header-slider.php:116 ../parts/class-header-slider.php:119
 msgid "Create beautiful sliders"
 msgstr "Erstellen Sie beeindruckende Slider"
 
-#: ../parts/class-header-slider.php:116
+#: ../parts/class-header-slider.php:120
 msgid ""
 "Customizr comes with a cool slider generator : add a slider to any post or "
 "page!"
@@ -1417,9 +1400,34 @@ msgstr ""
 "Customizr kommt mit einem coolen Slider-Generator: Fügen Sie einen Slider "
 "jedem Beitrag und/oder jeder Seite hinzu!"
 
-#: ../parts/class-header-slider.php:117
+#: ../parts/class-header-slider.php:121
 msgid "Discover the features"
 msgstr "Entdecken Sie die Fähigkeiten"
+
+#~ msgid ""
+#~ "Thank you for updating to the latest version! Customizr %1$s has more "
+#~ "features, is safer and more stable than ever <a href=\"#customizr-"
+#~ "changelog\">(see changelog)</a> to help you build an awesome website. "
+#~ "Watch the <a href=\"#introduction\">introduction video</a> and find "
+#~ "inspiration in the <a href=\"#showcase\">showcase</a>.<br/> Enjoy it! "
+#~ msgstr ""
+#~ "Vielen Dank für die Aktualisierung auf die neueste Version! Customizr %1$ "
+#~ "s hat mehr Funktionen, ist sicherer und stabiler als je zuvor <a href="
+#~ "\"#customizr-changelog\"> (siehe Changelog)</a> um Ihnen zu helfen "
+#~ "atemberaubende Websites zu gestalten. Schauen Sie sich das <a href="
+#~ "\"#introduction\"> Einführungsvideo</a> an entdecken Sie Anregungen im <a "
+#~ "href=\"#showcase\"> Showcase</a>. <br/> Viel Spaß!"
+
+#~ msgid "Discover Customizr : quick video introduction"
+#~ msgstr "Entdecken Sie Customizr: kurzes Einführungsvideo"
+
+#~ msgid ""
+#~ "Welcome to the new version of Customizr. You will be redirected to the "
+#~ "About screen. If not, click <a href=\"%1$s\">here</a>."
+#~ msgstr ""
+#~ "Willkommen Sie zur neuen Version von Customizr. Sie werden zum „Info“-"
+#~ "Bildschirm umgeleitet. Falls nicht, bitte <a href=\"%1$s\"> hier</a> "
+#~ "klicken."
 
 #~ msgid ""
 #~ "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span "

@@ -155,17 +155,16 @@ class TC_post_list {
 
       ob_start();
       global $tc_has_thumbnail;
-      $content_class        = ( $tc_has_thumbnail ) ? 'span8' : 'span12';
+
+      //get post list length option
+      $full = ( 'full' == esc_attr( tc__f( '__get_option' , 'tc_post_list_length' )) ) ? true:false;
+
+      $content_class        = ( $tc_has_thumbnail && !$full ) ? 'span8' : 'span12';
         ?>
 
           <section class="tc-content <?php echo $content_class; ?>">
               
           <?php do_action( '__before_content' ); ?>
-              
-
-              <?php //bubble color computation
-                  $style                  = ( 0 == get_comments_number() ) ? 'style="color:#AFAFAF" ':'';
-              ?>
               
               <?php //display an icon for div if there is no title
                       $icon_class = in_array(get_post_format(), array(  'quote' , 'aside' , 'status' , 'link' )) ? 'format-icon':'';
@@ -174,7 +173,11 @@ class TC_post_list {
                   
                   <section class="entry-summary">
                     <?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__); ?>
-                      <?php the_excerpt(); ?>
+                      <?php if ($full) : ?>
+                        <?php the_content(); ?>
+                      <?php else : ?>
+                        <?php the_excerpt(); ?>
+                      <?php endif; ?>
                   </section><!-- .entry-summary -->
               
               <?php elseif ( in_array(get_post_format(), array( 'image' , 'gallery' ))) : ?>
@@ -297,7 +300,9 @@ class TC_post_list {
       */
       function tc_post_list_thumbnail() {
         global $tc_has_thumbnail;
-        if ( !$tc_has_thumbnail )
+        //get post list length option
+        $full = ( 'full' == esc_attr( tc__f( '__get_option' , 'tc_post_list_length' )) ) ? true:false;
+        if ( !$tc_has_thumbnail || $full )
           return;
        
         global $wp_query;
@@ -420,7 +425,7 @@ class TC_post_list {
                        <?php echo get_avatar( get_the_author_meta( 'user_email', $user_id ), apply_filters( 'tc_author_bio_avatar_size' , 100 ) ); ?>
                     </div><!-- .author-avatar -->
                     <div class="author-description span10">
-                        <h2><?php printf( __( 'About %s' , 'customizr' ), get_the_author($user_id) ); ?></h2>
+                        <h2><?php printf( __( 'About %s' , 'customizr' ), get_the_author() ); ?></h2>
                         <p><?php the_author_meta( 'description' , $user_id  ); ?></p>
                     </div><!-- .author-description -->
                   </div>
@@ -549,7 +554,7 @@ class TC_post_list {
      * @since Customizr 3.0.11
      */
     function tc_hr_list_header() {
-      if ( !is_archive() && !is_search() )
+      if ( !is_archive() || !is_search() )
         return;
 
       tc__f('rec' , __FILE__ , __FUNCTION__, __CLASS__ );

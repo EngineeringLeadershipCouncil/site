@@ -22,7 +22,7 @@ class TC_slider {
         self::$instance =& $this;
 
         add_action( '__after_header'                   , array( $this , 'tc_slider_display' ));
-        add_action( 'wp_footer'                        , array( $this , 'tc_slider_footer_options' ),20);
+        //add_action( 'wp_footer'                        , array( $this , 'tc_slider_footer_options' ),20);
     }
 
   
@@ -287,8 +287,8 @@ class TC_slider {
     **/
     function tc_slider_footer_options() {
       //get slider options if any
-      $name_value       = get_post_meta( get_the_ID(), $key = 'post_slider_key' , $single = true );
-      $delay_value      = get_post_meta( get_the_ID(), $key = 'slider_delay_key' , $single = true );
+      $name_value       = get_post_meta( tc__f('__ID') , $key = 'post_slider_key' , $single = true );
+      $delay_value      = get_post_meta( tc__f('__ID') , $key = 'slider_delay_key' , $single = true );
       
       //get the slider id and delay if we display home/front page
       if ( tc__f('__is_home') ) {

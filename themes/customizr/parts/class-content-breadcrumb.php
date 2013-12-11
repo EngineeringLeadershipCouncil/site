@@ -332,7 +332,7 @@ class TC_breadcrumb {
 			elseif ( 'page' !== $post_type ) {
 
 				/* If $front has been set, add it to the $path. */
-				if ( isset( $post_type_object) && $post_type_object->rewrite['with_front'] && $wp_rewrite->front )
+				if ( isset( $post_type_object) && isset($post_type_object->rewrite['with_front']) && $post_type_object->rewrite['with_front'] && $wp_rewrite->front )
 					$path .= trailingslashit( $wp_rewrite->front );
 
 				/* If there's a slug, add it to the $path. */
@@ -448,7 +448,7 @@ class TC_breadcrumb {
 				$post_type_object = get_post_type_object( get_query_var( 'post_type' ) );
 
 				/* If $front has been set, add it to the $path. */
-				if ( $post_type_object->rewrite['with_front'] && $wp_rewrite->front )
+				if ( isset($post_type_object->rewrite['with_front']) && $post_type_object->rewrite['with_front'] && $wp_rewrite->front )
 					$path .= trailingslashit( $wp_rewrite->front );
 
 				/* If there's a slug, add it to the $path. */

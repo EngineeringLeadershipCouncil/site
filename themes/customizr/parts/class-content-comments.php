@@ -109,7 +109,7 @@ class TC_comments {
       * @since Customizr 1.0 
       */
      function tc_comment_callback( $comment, $args, $depth ) {
-      
+
       $GLOBALS['comment'] = $comment;
       //get user defined max comment depth
       $max_comments_depth = get_option('thread_comments_depth');
@@ -172,14 +172,14 @@ class TC_comments {
             </div><!-- .span8 -->
           </div><!-- .row -->
         </article><!-- #comment-## -->
-        <?php
-          break;
-        endswitch; // end comment_type check
+      <?php
+        break;
+      endswitch; // end comment_type check
 
-        $html = ob_get_contents();
-        ob_end_clean();
-        echo apply_filters( 'tc_comment_callback' , $html );
-      }
+      $html = ob_get_contents();
+      ob_end_clean();
+      echo apply_filters( 'tc_comment_callback' , $html, $comment, $args, $depth, $max_comments_depth );
+    }
 
 
 

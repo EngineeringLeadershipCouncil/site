@@ -595,6 +595,19 @@ class TC_customize {
 																	//'priority'       => 8,
 								),
 
+								//Post list length
+								'tc_theme_options[tc_post_list_length]'	=>	array(
+																	'default'    	=> 'excerpt',
+																	'label'   		=> __( 'Select the length of posts in lists (home, search, archives, ...)' , 'customizr' ),
+																	'section' 		=> 'tc_layout_settings' ,
+																	'type'    		=> 'select' ,
+																	'choices'		=> array(
+																					'excerpt' 	=> __( 'Display the excerpt' , 'customizr' ),
+																					'full'  	=> __( 'Display the full content' , 'customizr' )
+																					)
+																	//'priority'       => 6,
+								),
+
 								//Page sidebar layout
 								'tc_theme_options[tc_sidebar_page_layout]'	=>	array(
 																	'default'       => 'l' ,//Default sidebar layout is on the left

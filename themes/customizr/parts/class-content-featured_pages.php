@@ -41,7 +41,7 @@ class TC_featured_pages {
     		$tc_show_featured_pages_img    = esc_attr( tc__f( '__get_option' , 'tc_show_featured_pages_img' ) );
 
     		//set the areas array
-    		$areas = array ( 'one' , 'two' , 'three' );
+    		$areas = apply_filters( '__featured_pages_areas' , array ( 'one' , 'two' , 'three' ) );
 
     		?>
 
@@ -121,7 +121,7 @@ class TC_featured_pages {
               $featured_page_id             = esc_attr( $__options['tc_featured_page_'.$area]);
               $featured_page_link           = get_permalink( $featured_page_id );
               $featured_page_title          = get_the_title( $featured_page_id );
-              $featured_text                = strip_tags(html_entity_decode((esc_html( $__options['tc_featured_text_'.$area] ))));
+              $featured_text                = apply_filters( '__featured_page_text', strip_tags(html_entity_decode((esc_html( $__options['tc_featured_text_'.$area] )))), $__options, $area ) ;
 
               //get the page/post object
               $page                         =  get_post($featured_page_id);
@@ -209,21 +209,23 @@ class TC_featured_pages {
 
             <?php endif; ?>
 
-              <h2><?php echo $featured_page_title ?></h2>
-              <p class="fp-text-<?php echo $area ?>"><?php echo $text;  ?></p>
-              <p>
-                 <?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__, 'right'); ?>
-                <a class="btn btn-primary fp-button" href="<?php echo $featured_page_link ?>" title="<?php echo $featured_page_title ?>">
-                  <?php echo esc_attr( tc__f( '__get_option' , 'tc_featured_page_button_text') ) ?>
-                </a>
+              <h2>
+                <?php echo $featured_page_title ?>
+              </h2>
+              <p class="fp-text-<?php echo $area ?>">
+                <?php echo $text;  ?>
               </p>
+              <?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__, 'right'); ?>
+              <a class="btn btn-primary fp-button" href="<?php echo $featured_page_link ?>" title="<?php echo $featured_page_title ?>">
+                  <?php echo esc_attr( tc__f( '__get_option' , 'tc_featured_page_button_text') ) ?>
+              </a>
 
           </div><!-- /.widget-front -->
           
           <?php
           $html = ob_get_contents();
           ob_end_clean();
-          echo apply_filters( 'tc_fp_single_display' , $html );
+          echo apply_filters( 'tc_fp_single_display' , $html, $area, $show_img, $tc_thumb, $featured_page_link, $featured_page_title, $text );
       }//end of function
 
  }//end of class

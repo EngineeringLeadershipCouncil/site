@@ -123,6 +123,47 @@ The exceptions to this license are as follows:
 
 
 #######################  Changelog ######################
+= 3.0.15 =
+* added : (language) Catalan : thanks to <a href="https://twitter.com/jaume_albaiges" target="_blank">Jaume Albaig&egrave;s</a>
+* fixed : (js) Slider : ie7/ie8/ie9 hack (had to be re-implemented) : thanks to @barryvdh (https://github.com/twbs/bootstrap/pull/3052)
+
+
+= 3.0.14 =
+* added : (language) Arabic : thanks to Ramez Bdiwi
+* added : (language) RTL support : thanks to Ramez Bdiwi
+* added : (language) Romanian : thanks to <a href="http://websiter.ro" target="_blank">Andrei Gheorghiu</a>
+* added : (php) two hooks in index.php before article => allowing to add sections
+* added : (php) new customizer option : select the length of posts in lists : excerpt of full length
+* added : (php) add_size_images : new filters for image sizes
+* added : (php) rtl : check on WPLANG to register the appropriate skin
+* added : (php) featured pages : new filter for featured pages areas
+* added : (php) featured pages : new filter for featured page text
+* added : (php) slider : 3 filters have been added in class-admin-meta_boxes.php to modify the text, title and button length __slide_text_length, __slide_title_length, __slide_button_length
+* added : (php) logo : 2 new filters to control max width and max height values (if logo resize options is enabled) : '__max_logo_width' , '__max_logo_height'
+* added : (php) body tag : a new action hook '__body_attributes'
+* added : (php) header tag : new '__header_classes' filter
+* added : (php) #main-wrapper : new '__main_wrapper_classes' filter
+* added : (php) footer : new '__footer_classes' filter
+* added : (js) scrollspy from Bootstrap
+* added : (js) Scrollspy : updated version from Bootstrap v3.0. handles submenu spy.
+* added : (css) back to top link colored with the skin color links
+* added : (css) bootstrap : alerts, thumbnails, labels-badges, progress-bars, accordion stylesheets
+* added : (css) Editor style support for skins, user style.css, specific post formats and rtl.
+* improved : (css) performance : Avoid AlphaImageLoader filter for IE and css minified for fancybox stylesheet
+* improved : (css) (php) logo : useless h1 tag has been removed if logo img. Better rendering function with printf. Better filters of logo function. 2 new actions have been added before and after logo : '__before_logo' , '__after_logo'
+* removed : (php) Post list content : removed the useless buble $style var
+* removed : (css) featured pages : useless p tag wrap for fp-button removed
+* removed : (php) User experience : redirection to welcome screen on activation/update
+* removed : (php) Security : Embedded video, Google+, and Twitter buttons
+* fixed : (php) breadcrumb class : add a check isset on the $post_type_object->rewrite['with_front'] for CPT
+* fixed : (php) a check on is_archive() has been added to tc_get_the_ID() function in class fire utils
+* fixed : (php) we used tc__f('__ID') instead of get_the_ID() in class-header-slider
+* fixed : (php) we add a hr separator after header only for search results and archives
+* fixed : (php) comments : 'tc_comment_callback' filter hook was missing parameters
+* fixed : (php) featured pages : filter  'tc_fp_single_display' was missing parameters
+* fixed : (css) comments avatar more responsive
+* fixed : (css) ie9 and less : hack to get rid of the gradient effect => was bugging the responsive menu.
+
 = 3.0.13 =
 * fixed : (php) Logo upload : we check if the getimagesize() function generates any warning (due to restrictions of use on some servers like 1&1) before using it. Thanks to <a href="http://wordpress.org/support/profile/svematec" target="_blank">svematec</a>, <a href="http://wordpress.org/support/profile/electricfeet" target="_blank">electricfeet</a> and <a href="http://wordpress.org/support/profile/heronswalk" target="_blank">heronswalk</a> for reporting this issue so quickly!
 
@@ -159,6 +200,7 @@ The exceptions to this license are as follows:
 * added : (js) smooth image loading on gallery attachment navigation
 * added : (lang) Dutch translation. Thanks to Joris Dutmer.
 * added : (css) icon to title of archive, search, 404
+* improved : (js) (php) tc-scripts.js : now includes fancybox + carousel scripts with dynamic variables (localized)
 * improved : (php) attachment screen layout based on the parent
 * improved : (php) simpler action hooks structure in the main templates : index, header, footer, comments, sidebars
 * improved : (css) responsive behaviour : slider caption now visible for devices < 480px wide, thumbnail/content layout change for better display, body extra padding modified

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Customizr 1.1.5\n"
-"POT-Creation-Date: 2013-09-17 19:35+0100\n"
-"PO-Revision-Date: 2013-09-17 19:36+0100\n"
+"POT-Creation-Date: 2013-11-05 11:26+0100\n"
+"PO-Revision-Date: 2013-11-05 11:27+0100\n"
 "Last-Translator: Nicolas G. <contact@themesandco.com>\n"
 "Language-Team: Nicolas G. <contact@themesandco.com>\n"
 "Language: Français\n"
@@ -20,12 +20,12 @@ msgstr ""
 msgid "Leave a Comment"
 msgstr "发表评论"
 
-#: ../inc/class-fire-init.php:56
+#: ../inc/class-fire-init.php:72
 #, fuzzy
 msgid "Main Menu"
 msgstr "主菜单"
 
-#: ../inc/class-fire-utils.php:366
+#: ../inc/class-fire-utils.php:367
 #, php-format
 msgid "Page %s"
 msgstr "页面 %s"
@@ -172,7 +172,7 @@ msgid "Images"
 msgstr "图片"
 
 #: ../inc/admin/class-admin-customize.php:229
-#: ../inc/admin/class-admin-customize.php:771
+#: ../inc/admin/class-admin-customize.php:784
 msgid "Enable/disable lightbox effect on images"
 msgstr "在图片上启用/停用灯箱效果"
 
@@ -259,7 +259,7 @@ msgstr "配置首页样式"
 #: ../inc/admin/class-admin-customize.php:383
 #: ../inc/admin/class-admin-customize.php:551
 #: ../inc/admin/class-admin-customize.php:577
-#: ../inc/admin/class-admin-customize.php:605
+#: ../inc/admin/class-admin-customize.php:618
 #: ../inc/admin/class-admin-meta_boxes.php:130
 msgid "Right sidebar"
 msgstr "右边栏"
@@ -267,7 +267,7 @@ msgstr "右边栏"
 #: ../inc/admin/class-admin-customize.php:384
 #: ../inc/admin/class-admin-customize.php:552
 #: ../inc/admin/class-admin-customize.php:578
-#: ../inc/admin/class-admin-customize.php:606
+#: ../inc/admin/class-admin-customize.php:619
 #: ../inc/admin/class-admin-meta_boxes.php:131
 msgid "Left sidebar"
 msgstr "左边栏"
@@ -275,14 +275,14 @@ msgstr "左边栏"
 #: ../inc/admin/class-admin-customize.php:385
 #: ../inc/admin/class-admin-customize.php:553
 #: ../inc/admin/class-admin-customize.php:579
-#: ../inc/admin/class-admin-customize.php:607
+#: ../inc/admin/class-admin-customize.php:620
 msgid "2 sidebars : Right and Left"
 msgstr "双边栏：左边和右边"
 
 #: ../inc/admin/class-admin-customize.php:386
 #: ../inc/admin/class-admin-customize.php:554
 #: ../inc/admin/class-admin-customize.php:580
-#: ../inc/admin/class-admin-customize.php:608
+#: ../inc/admin/class-admin-customize.php:621
 msgid "No sidebars : full width layout"
 msgstr "无侧边栏：满页宽度样式"
 
@@ -409,16 +409,30 @@ msgid "Maximum number of posts per page"
 msgstr "每页最多显示的文章数量"
 
 #: ../inc/admin/class-admin-customize.php:601
+msgid "Select the length of posts in lists (home, search, archives, ...)"
+msgstr ""
+
+#: ../inc/admin/class-admin-customize.php:605
+#, fuzzy
+msgid "Display the excerpt"
+msgstr "显示上方边框"
+
+#: ../inc/admin/class-admin-customize.php:606
+#, fuzzy
+msgid "Display the full content"
+msgstr "显示上方边框"
+
+#: ../inc/admin/class-admin-customize.php:614
 #, fuzzy
 msgid "Choose the pages default layout"
 msgstr "选择文章默认样式"
 
-#: ../inc/admin/class-admin-customize.php:619
+#: ../inc/admin/class-admin-customize.php:632
 #, fuzzy
 msgid "Enable comments on pages"
 msgstr "在页面上启用评论功能"
 
-#: ../inc/admin/class-admin-customize.php:622
+#: ../inc/admin/class-admin-customize.php:635
 msgid ""
 "This option will enable comments on pages. You can disable comments for a "
 "single page in the quick edit mode of the page list screen."
@@ -426,69 +440,69 @@ msgstr ""
 "此项将在页面上启用评论功能。您可以在页面列表屏的编辑模式上单独为某个页面停用"
 "评论功能。"
 
-#: ../inc/admin/class-admin-customize.php:632
+#: ../inc/admin/class-admin-customize.php:645
 msgid "Social links in header"
 msgstr "在页头显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:640
+#: ../inc/admin/class-admin-customize.php:653
 msgid "Social links in left sidebar"
 msgstr "在左边栏显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:648
+#: ../inc/admin/class-admin-customize.php:661
 msgid "Social links in right sidebar"
 msgstr "在右边栏显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:656
+#: ../inc/admin/class-admin-customize.php:669
 msgid "Social links in footer"
 msgstr "在页脚显示社会化链接"
 
-#: ../inc/admin/class-admin-customize.php:668
+#: ../inc/admin/class-admin-customize.php:681
 msgid "RSS feed (default is the wordpress feed)"
 msgstr "RSS 订阅（默认是订阅 wordpress 内容）"
 
-#: ../inc/admin/class-admin-customize.php:677
+#: ../inc/admin/class-admin-customize.php:690
 msgid "Twitter profile url"
 msgstr "Twitter上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:686
+#: ../inc/admin/class-admin-customize.php:699
 msgid "Facebook profile url"
 msgstr "Facebook上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:695
+#: ../inc/admin/class-admin-customize.php:708
 msgid "Google+ profile url"
 msgstr "Google+上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:704
+#: ../inc/admin/class-admin-customize.php:717
 msgid "Instagram profile url"
 msgstr "Instagram上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:713
+#: ../inc/admin/class-admin-customize.php:726
 #, fuzzy
 msgid "WordPress profile url"
 msgstr "Pinterest上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:722
+#: ../inc/admin/class-admin-customize.php:735
 #, fuzzy
 msgid "Youtube profile url"
 msgstr "Github上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:731
+#: ../inc/admin/class-admin-customize.php:744
 msgid "Pinterest profile url"
 msgstr "Pinterest上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:740
+#: ../inc/admin/class-admin-customize.php:753
 msgid "Github profile url"
 msgstr "Github上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:749
+#: ../inc/admin/class-admin-customize.php:762
 msgid "Dribbble profile url"
 msgstr "Dribbble上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:758
+#: ../inc/admin/class-admin-customize.php:771
 msgid "LinkedIn profile url"
 msgstr "LinkedIn上的个人页面地址"
 
-#: ../inc/admin/class-admin-customize.php:774
+#: ../inc/admin/class-admin-customize.php:787
 msgid ""
 "If enabled, this option activate a popin window whith a zoom effect when an "
 "image is clicked. This will not apply to image gallery."
@@ -496,20 +510,20 @@ msgstr ""
 "如果启用此项，当图片被点击时会自动跳出具有缩放功能的弹窗。该功能并不会适用于"
 "图像画廊。"
 
-#: ../inc/admin/class-admin-customize.php:780
+#: ../inc/admin/class-admin-customize.php:793
 msgid "Autoscale images on zoom"
 msgstr "图片缩放时自动调整大小"
 
-#: ../inc/admin/class-admin-customize.php:783
+#: ../inc/admin/class-admin-customize.php:796
 msgid ""
 "If enabled, this option will force images to fit the screen on lightbox zoom."
 msgstr "启用后，此项功能将迫使图片在灯箱缩放效果中自动适应浏览器窗口大小"
 
-#: ../inc/admin/class-admin-customize.php:806
+#: ../inc/admin/class-admin-customize.php:819
 msgid "Add your custom css here and design live! (for advanced users)"
 msgstr "在此处添加个性化 CSS 并同时查看效果！（适用于高级用户）"
 
-#: ../inc/admin/class-admin-customize.php:809
+#: ../inc/admin/class-admin-customize.php:822
 msgid ""
 "Always use this field to add your custom css instead of editing directly the "
 "style.css file : it will not be deleted during theme updates. You can also "
@@ -519,17 +533,17 @@ msgstr ""
 "时，添加的个性化 CSS 代码不会被删除；以及您还可以把个性化 CSS 代码粘贴到一个"
 "子主题的样式文件中。"
 
-#: ../inc/admin/class-admin-customize.php:818
+#: ../inc/admin/class-admin-customize.php:831
 #, fuzzy
 msgid "Developer Box"
 msgstr "开发者工具箱"
 
-#: ../inc/admin/class-admin-customize.php:827
-#: ../inc/admin/class-admin-customize.php:845
+#: ../inc/admin/class-admin-customize.php:840
+#: ../inc/admin/class-admin-customize.php:858
 msgid "Only visible for logged in users with an admin profile."
 msgstr "只显示给登录中的管理员"
 
-#: ../inc/admin/class-admin-customize.php:830
+#: ../inc/admin/class-admin-customize.php:843
 msgid ""
 "If enabled, this option displays a draggable information box to help you "
 "develop or debug your Customizr based website."
@@ -537,17 +551,17 @@ msgstr ""
 "此项启用后，网站上将出现可拖动的信息框以供管理员个性化配置和调试基于 "
 "Customizr 主题的网站。"
 
-#: ../inc/admin/class-admin-customize.php:836
+#: ../inc/admin/class-admin-customize.php:849
 msgid "Developer tooltips"
 msgstr "开发者工具提示信息"
 
-#: ../inc/admin/class-admin-customize.php:848
+#: ../inc/admin/class-admin-customize.php:861
 msgid ""
 "If enabled, this option displays clickable contextual tooltips right inside "
 "your website."
 msgstr "此项启用后，网站上将出现可点击的提示信息。"
 
-#: ../inc/admin/class-admin-customize.php:857
+#: ../inc/admin/class-admin-customize.php:870
 msgid "Tip icon color"
 msgstr "提示图标颜色"
 
@@ -639,13 +653,13 @@ msgid "Add a slider to this post/page"
 msgstr "添加一个滑块到此文章/页面"
 
 #: ../inc/admin/class-admin-meta_boxes.php:291
-#: ../inc/admin/class-admin-meta_boxes.php:668
+#: ../inc/admin/class-admin-meta_boxes.php:677
 #, fuzzy
 msgid "Choose a slider"
 msgstr "选择一个滑块"
 
 #: ../inc/admin/class-admin-meta_boxes.php:298
-#: ../inc/admin/class-admin-meta_boxes.php:683
+#: ../inc/admin/class-admin-meta_boxes.php:692
 #, fuzzy
 msgid "&mdash; Select a slider &mdash; "
 msgstr "&mdash; 选择一个滑块r &mdash; "
@@ -665,20 +679,20 @@ msgid "Slider Layout : set the slider in full width"
 msgstr "滑块样式：设定滑块宽度为满页宽度"
 
 #: ../inc/admin/class-admin-meta_boxes.php:331
-#: ../inc/admin/class-admin-meta_boxes.php:692
+#: ../inc/admin/class-admin-meta_boxes.php:701
 #, fuzzy
 msgid "Delete this slider"
 msgstr "删除滑块"
 
 #: ../inc/admin/class-admin-meta_boxes.php:336
-#: ../inc/admin/class-admin-meta_boxes.php:696
+#: ../inc/admin/class-admin-meta_boxes.php:705
 msgid ""
 "The slider will be deleted permanently (images, call to actions and link "
 "will be kept)."
 msgstr "此滑块将被永久删除（包含在其中的图片，宣传语以及链接将会保留）"
 
 #: ../inc/admin/class-admin-meta_boxes.php:339
-#: ../inc/admin/class-admin-meta_boxes.php:699
+#: ../inc/admin/class-admin-meta_boxes.php:708
 #, fuzzy
 msgid "Delete slider"
 msgstr "删除滑块"
@@ -700,75 +714,75 @@ msgstr "添加一个滑块"
 msgid "Add to a slider (create one if needed)"
 msgstr "添加到一个滑块中（根据需要可创建一个滑块）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:625
+#: ../inc/admin/class-admin-meta_boxes.php:634
 msgid "Title text (80 car. max length)"
 msgstr "标题文字（最多40字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:632
+#: ../inc/admin/class-admin-meta_boxes.php:641
 msgid "Description text (below the title, 250 car. max length)"
 msgstr "描述文字（处标题下方，最多125字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:639
+#: ../inc/admin/class-admin-meta_boxes.php:648
 #, fuzzy
 msgid "Title and text color"
 msgstr "标题和文字颜色"
 
-#: ../inc/admin/class-admin-meta_boxes.php:647
+#: ../inc/admin/class-admin-meta_boxes.php:656
 msgid "Button text (80 car. max length)"
 msgstr "按钮文字（最多40字）"
 
-#: ../inc/admin/class-admin-meta_boxes.php:654
+#: ../inc/admin/class-admin-meta_boxes.php:663
 msgid "Choose a linked page or post (among the last 100)."
 msgstr "添加一个链接页面或链接文章（在过去发表的100篇内容中选取）。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:659
+#: ../inc/admin/class-admin-meta_boxes.php:668
 #, fuzzy
 msgid "No link"
 msgstr "无链接"
 
-#: ../inc/admin/class-admin-meta_boxes.php:689
-#: ../inc/admin/class-admin-meta_boxes.php:720
+#: ../inc/admin/class-admin-meta_boxes.php:698
+#: ../inc/admin/class-admin-meta_boxes.php:729
 #, fuzzy
 msgid "Add a slider"
 msgstr "添加一个滑块"
 
-#: ../inc/admin/class-admin-meta_boxes.php:718
+#: ../inc/admin/class-admin-meta_boxes.php:727
 msgid ""
 "You haven't create any slider yet. Write a slider name and click on the "
 "button to add you first slider."
 msgstr ""
 "您还没有添加任何滑块。键入一个滑块名称然后在按钮上点击以添加您的第一个滑块。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:833
+#: ../inc/admin/class-admin-meta_boxes.php:844
 msgid ""
 "This slider has not slides to show. Go to the media library and start adding "
 "images to it."
 msgstr "此滑块还没有添加幻灯片。进入媒体库并添加图片到此滑块中。"
 
-#: ../inc/admin/class-admin-meta_boxes.php:843
+#: ../inc/admin/class-admin-meta_boxes.php:854
 #, fuzzy
 msgid "Slide Image"
 msgstr "滑块图片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:844
+#: ../inc/admin/class-admin-meta_boxes.php:855
 msgid "Title"
 msgstr "标题"
 
-#: ../inc/admin/class-admin-meta_boxes.php:845
+#: ../inc/admin/class-admin-meta_boxes.php:856
 #, fuzzy
 msgid "Slide Text"
 msgstr "Diapositive"
 
-#: ../inc/admin/class-admin-meta_boxes.php:846
+#: ../inc/admin/class-admin-meta_boxes.php:857
 #, fuzzy
 msgid "Button Text"
 msgstr "按钮文字"
 
-#: ../inc/admin/class-admin-meta_boxes.php:847
+#: ../inc/admin/class-admin-meta_boxes.php:858
 msgid "Button Link"
 msgstr "按钮链接"
 
-#: ../inc/admin/class-admin-meta_boxes.php:848
+#: ../inc/admin/class-admin-meta_boxes.php:859
 #: ../parts/class-content-attachment.php:88
 #: ../parts/class-content-breadcrumb.php:614
 #: ../parts/class-content-breadcrumb.php:647
@@ -778,17 +792,17 @@ msgstr "按钮链接"
 msgid "Edit"
 msgstr "编辑"
 
-#: ../inc/admin/class-admin-meta_boxes.php:889
+#: ../inc/admin/class-admin-meta_boxes.php:900
 #, fuzzy
 msgid "No Image Selected"
 msgstr "未选中图片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:915
+#: ../inc/admin/class-admin-meta_boxes.php:926
 #, fuzzy
 msgid "Edit this slide"
 msgstr "编辑此幻灯片"
 
-#: ../inc/admin/class-admin-meta_boxes.php:917
+#: ../inc/admin/class-admin-meta_boxes.php:928
 #, fuzzy
 msgid "Current slide"
 msgstr "当前幻灯片"
@@ -798,107 +812,92 @@ msgstr "当前幻灯片"
 msgid "Create a slider"
 msgstr "创建美丽的滑块"
 
-#: ../inc/admin/class-fire-admin_init.php:105
-#: ../inc/admin/class-fire-admin_init.php:106
+#: ../inc/admin/class-fire-admin_init.php:78
+#: ../inc/admin/class-fire-admin_init.php:79
 #, fuzzy
 msgid "Upgrade WP"
 msgstr "更新 WP"
 
-#: ../inc/admin/class-fire-admin_init.php:125
+#: ../inc/admin/class-fire-admin_init.php:98
 #, fuzzy
 msgid "This theme requires WordPress 3.4+"
 msgstr "安装此主题需要WordPress 3.4及以上版本"
 
-#: ../inc/admin/class-fire-admin_init.php:128
-#: ../inc/admin/class-fire-admin_init.php:129
+#: ../inc/admin/class-fire-admin_init.php:101
+#: ../inc/admin/class-fire-admin_init.php:102
 #, fuzzy
 msgid "Upgrade Wordpress Now"
 msgstr "现在就更新 Wordpress"
 
-#: ../inc/admin/class-fire-admin_init.php:170
-#: ../inc/admin/class-fire-admin_init.php:171
+#: ../inc/admin/class-fire-admin_init.php:119
+#: ../inc/admin/class-fire-admin_init.php:120
 msgid "About Customizr"
 msgstr "关于 Customizr"
 
-#: ../inc/admin/class-fire-admin_init.php:191
+#: ../inc/admin/class-fire-admin_init.php:140
 msgid "Help"
 msgstr "帮助"
 
-#: ../inc/admin/class-fire-admin_init.php:194
+#: ../inc/admin/class-fire-admin_init.php:143
 msgid "Need help with Customizr? Click here!"
 msgstr "需要获得关于 Customizr 的帮助吗？点击此处！"
 
-#: ../inc/admin/class-fire-admin_init.php:228
+#: ../inc/admin/class-fire-admin_init.php:169
 #, fuzzy
 msgid "Need help with Customizr ?"
 msgstr "需要获得关于 Customizr 的帮助吗？点击此处！"
 
-#: ../inc/admin/class-fire-admin_init.php:230
+#: ../inc/admin/class-fire-admin_init.php:171
 #, fuzzy, php-format
 msgid "Welcome to Customizr %s"
 msgstr "欢迎来到 Customizr %s"
 
-#: ../inc/admin/class-fire-admin_init.php:236
+#: ../inc/admin/class-fire-admin_init.php:178
 #, php-format
 msgid ""
-"Thank you for updating to the latest version! Customizr %1$s has more "
-"features, is safer and more stable than ever <a href=\"#customizr-changelog"
-"\">(see changelog)</a> to help you build an awesome website. Watch the <a "
-"href=\"#introduction\">introduction video</a> and find inspiration in the <a "
-"href=\"#showcase\">showcase</a>.<br/> Enjoy it! "
-msgstr ""
-"恭喜您已经更新至 Customizr 的最新版本！Customizr %1$s 比以往具备更多功能，更"
-"加安全和稳定 <a href=\"#customizr-changelog\">（查看更新记录）</a>帮助您创建"
-"一流的网站。观看<a href=\"#introduction\">介绍视频</a> 并在这里<a href="
-"\"#showcase\">showcase</a>找到与您志同道合的朋友。<a href=\"#showcase"
-"\">showcase</a>.<br/>尽情享用吧！"
-
-#: ../inc/admin/class-fire-admin_init.php:245
-#, php-format
-msgid ""
-"You can start by watching the <a href=\"#introduction\">introduction video</"
-"a> or by reading <a href=\"%1$scustomizr\" target=\"_blank\">the "
-"documentation</a>.<br/> If you don't find an answer to your issue, don't "
-"panic! Since Customizr is used by a growing community of webmasters "
+"You can start by watching the <a href=\"%1$s\" target=\"_blank"
+"\">introduction video</a> or by reading <a href=\"%2$s\" target=\"_blank"
+"\">the documentation</a>.<br/> If you don't find an answer to your issue, "
+"don't panic! Since Customizr is used by a growing community of webmasters "
 "reporting bugs and making continuous improvements, you will probably find a "
 "solution to your problem either in the FAQ or in the user forum."
 msgstr ""
-"You can start by watching the <a href=\"#introduction\">introduction video</"
-"a> or by reading <a href=\"%1$scustomizr\" target=\"_blank\">the "
-"documentation</a>.<br/> If you don't find an answer to your issue, don't "
-"panic! Since Customizr is used by a growing community of webmasters "
+"You can start by watching the <a href=\"%1$s\" target=\"_blank"
+"\">introduction video</a> or by reading <a href=\"%2$s\" target=\"_blank"
+"\">the documentation</a>.<br/> If you don't find an answer to your issue, "
+"don't panic! Since Customizr is used by a growing community of webmasters "
 "reporting bugs and making continuous improvements, you will probably find a "
 "solution to your problem either in the FAQ or in the user forum."
 
-#: ../inc/admin/class-fire-admin_init.php:252
+#: ../inc/admin/class-fire-admin_init.php:186
 #, fuzzy
 msgid "Read the documentation"
 msgstr "阅读帮助文档"
 
-#: ../inc/admin/class-fire-admin_init.php:256
+#: ../inc/admin/class-fire-admin_init.php:190
 msgid "Check the FAQ"
 msgstr "查看FAQ"
 
-#: ../inc/admin/class-fire-admin_init.php:260
+#: ../inc/admin/class-fire-admin_init.php:194
 msgid "Discuss in the user forum"
 msgstr "加入用户论坛讨论"
 
-#: ../inc/admin/class-fire-admin_init.php:268
-#, fuzzy, php-format
+#: ../inc/admin/class-fire-admin_init.php:202
+#, php-format
 msgid ""
 "Thank you for using Customizr! Customizr %1$s has more features, is safer "
 "and more stable than ever <a href=\"#customizr-changelog\">(see the "
-"changelog)</a> to help you build an awesome website. Watch the <a href="
-"\"#introduction\">introduction video</a> and find inspiration in the <a href="
-"\"#showcase\">showcase</a>.<br/>Enjoy it! "
+"changelog)</a> to help you build an awesome website. Watch the <a href=\"%2$s"
+"\" target=\"_blank\">introduction video</a> and find inspiration in the <a "
+"href=\"#showcase\">showcase</a>.<br/>Enjoy it! "
 msgstr ""
 "恭喜您已经更新至 Customizr 的最新版本！Customizr %1$s 比以往具备更多功能，更"
 "加安全和稳定 <a href=\"#customizr-changelog\">（查看更新记录）</a>帮助您创建"
-"一流的网站。观看<a href=\"#introduction\">介绍视频</a> 并在这里<a href="
-"\"#showcase\">showcase</a>找到与您志同道合的朋友。<a href=\"#showcase"
+"一流的网站。观看<a href=\"%2$s\" target=\"_blank\">介绍视频</a> 并在这里<a "
+"href=\"#showcase\">showcase</a>找到与您志同道合的朋友。<a href=\"#showcase"
 "\">showcase</a>.<br/>尽情享用吧！"
 
-#: ../inc/admin/class-fire-admin_init.php:285
+#: ../inc/admin/class-fire-admin_init.php:216
 #, php-format
 msgid ""
 "You are using a child theme of Customizr %1$s : always check the %2$s after "
@@ -907,11 +906,11 @@ msgstr ""
 "您正在使用 Customizr %1$s 的一个子主题：记得在更新后查看e %2$s 以确保某项功能"
 "或模板内容被弃用。"
 
-#: ../inc/admin/class-fire-admin_init.php:300
+#: ../inc/admin/class-fire-admin_init.php:231
 msgid "We need sponsors!"
 msgstr "我们需要您的资助！"
 
-#: ../inc/admin/class-fire-admin_init.php:301
+#: ../inc/admin/class-fire-admin_init.php:232
 msgid ""
 "<strong>We do our best do make Customizr the perfect free theme for you!</"
 "strong><br/> Please help support it's continued development with a donation "
@@ -920,11 +919,11 @@ msgstr ""
 "<strong> 为帮助您建设网站，我们竭尽全力开发 Customizr ，使它接近完美！</"
 "strong><br/>请同我们一道维系该项目。你可以选择给我们捐助 $20，$50，或者$100。"
 
-#: ../inc/admin/class-fire-admin_init.php:308
+#: ../inc/admin/class-fire-admin_init.php:239
 msgid "Happy user of Customizr?"
 msgstr "你是 Customizr 的满意用户吗？"
 
-#: ../inc/admin/class-fire-admin_init.php:309
+#: ../inc/admin/class-fire-admin_init.php:240
 msgid ""
 "If you are happy with the theme, say it on wordpress.org and give Customizr "
 "a nice review! <br />(We are addicted to your feedbacks...)"
@@ -932,20 +931,20 @@ msgstr ""
 "如果您对此主题满意的话，请在 WordPress.org上给 Customizr 一个积极的评论吧！"
 "(我们将会再接再厉以期达到您的期望...)"
 
-#: ../inc/admin/class-fire-admin_init.php:314
+#: ../inc/admin/class-fire-admin_init.php:245
 #, fuzzy
 msgid "Follow us"
 msgstr "关注我"
 
-#: ../inc/admin/class-fire-admin_init.php:333
+#: ../inc/admin/class-fire-admin_init.php:253
 msgid "New! Customizr Developer Tools"
 msgstr "新鲜事！ Customizr 开发者工具"
 
-#: ../inc/admin/class-fire-admin_init.php:337
+#: ../inc/admin/class-fire-admin_init.php:257
 msgid "Easily drill down into Customizr code with the dev tools!"
 msgstr "Easily drill down into Customizr code with the dev tools!"
 
-#: ../inc/admin/class-fire-admin_init.php:338
+#: ../inc/admin/class-fire-admin_init.php:258
 msgid ""
 "A new section called \"Dev Tools\" has been added to the customizer options."
 "<br/> There you will find two optional new features : <br/><strong>-The "
@@ -963,56 +962,43 @@ msgid ""
 "to logged in users with an admin capability profile.</i>"
 msgstr "LL"
 
-#: ../inc/admin/class-fire-admin_init.php:345
+#: ../inc/admin/class-fire-admin_init.php:265
 msgid "Customizr Showcase"
 msgstr "Customizr 网站展示"
 
-#: ../inc/admin/class-fire-admin_init.php:348
-#: ../inc/admin/class-fire-admin_init.php:355
+#: ../inc/admin/class-fire-admin_init.php:268
+#: ../inc/admin/class-fire-admin_init.php:275
 msgid "Visit the showcase"
 msgstr "访问展示中心"
 
-#: ../inc/admin/class-fire-admin_init.php:349
+#: ../inc/admin/class-fire-admin_init.php:269
 msgid "Find inspiration for your next Customizr based website!"
 msgstr "寻求下一个 Customizr 网站灵感"
 
-#: ../inc/admin/class-fire-admin_init.php:350
+#: ../inc/admin/class-fire-admin_init.php:270
 msgid ""
 "This showcase aims to show what can be done with Customizr and helping other "
 "users to find inspiration for their web design."
 msgstr ""
 
-#: ../inc/admin/class-fire-admin_init.php:352
+#: ../inc/admin/class-fire-admin_init.php:272
 msgid ""
 "Do you think you made an awesome website that can inspire people? Submitting "
 "a site for review is quick and easy to do."
 msgstr ""
 
-#: ../inc/admin/class-fire-admin_init.php:362
-msgid "Discover Customizr : quick video introduction"
-msgstr "Customizr 发现之旅：快速介绍视频"
-
-#: ../inc/admin/class-fire-admin_init.php:372
+#: ../inc/admin/class-fire-admin_init.php:282
 #, fuzzy, php-format
 msgid "Changelog in version %1$s"
 msgstr " %1$s版本变更记录"
 
-#: ../inc/admin/class-fire-admin_init.php:381
+#: ../inc/admin/class-fire-admin_init.php:291
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
-#: ../inc/admin/class-fire-admin_init.php:381
+#: ../inc/admin/class-fire-admin_init.php:291
 msgid "Go to Dashboard"
 msgstr "进入仪表盘"
-
-#: ../inc/admin/class-fire-admin_init.php:419
-#, fuzzy, php-format
-msgid ""
-"Welcome to the new version of Customizr. You will be redirected to the About "
-"screen. If not, click <a href=\"%1$s\">here</a>."
-msgstr ""
-"欢迎来到新版的 Customizr。您将被转入主题介绍屏幕。如果没有成功转入，点击 <a "
-"href=\"%1$s\">这里</a>."
 
 #: ../parts/class-content-404.php:67
 #, fuzzy
@@ -1221,17 +1207,17 @@ msgid "Edit page"
 msgstr "编辑页面"
 
 #: ../parts/class-content-page.php:84 ../parts/class-content-post.php:149
-#: ../parts/class-content-post_list.php:189
+#: ../parts/class-content-post_list.php:192
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "继续阅读 <span class=\"meta-nav\">&rarr;</span>"
 
 #: ../parts/class-content-page.php:87 ../parts/class-content-post.php:150
-#: ../parts/class-content-post_list.php:190
+#: ../parts/class-content-post_list.php:193
 msgid "Pages:"
 msgstr "页面"
 
 #: ../parts/class-content-post.php:196
-#: ../parts/class-content-post_list.php:423
+#: ../parts/class-content-post_list.php:428
 #, php-format
 msgid "About %s"
 msgstr "关于 %s"
@@ -1250,46 +1236,46 @@ msgstr "Permalink to %s"
 msgid "{no title} Read the post &raquo;"
 msgstr "{no title} 阅读此文章 &raquo;"
 
-#: ../parts/class-content-post_list.php:376
+#: ../parts/class-content-post_list.php:381
 #, fuzzy, php-format
 msgid "%1sSearch Results for: %2s"
 msgstr "%1s搜寻结果: %2s"
 
-#: ../parts/class-content-post_list.php:377
+#: ../parts/class-content-post_list.php:382
 msgid "No"
 msgstr "没有"
 
-#: ../parts/class-content-post_list.php:414
+#: ../parts/class-content-post_list.php:419
 #, php-format
 msgid "Author Archives: %s"
 msgstr "作者归档: %s"
 
-#: ../parts/class-content-post_list.php:458
+#: ../parts/class-content-post_list.php:463
 #, php-format
 msgid "Category Archives: %s"
 msgstr "分类目录: %s"
 
-#: ../parts/class-content-post_list.php:490
+#: ../parts/class-content-post_list.php:495
 #, php-format
 msgid "Tag Archives: %s"
 msgstr "标签归档: %s"
 
-#: ../parts/class-content-post_list.php:524
+#: ../parts/class-content-post_list.php:529
 #, php-format
 msgid "Daily Archives: %s"
 msgstr "每日归档: %s"
 
-#: ../parts/class-content-post_list.php:526
+#: ../parts/class-content-post_list.php:531
 #, php-format
 msgid "Monthly Archives: %s"
 msgstr "每月归档: %ss"
 
-#: ../parts/class-content-post_list.php:528
+#: ../parts/class-content-post_list.php:533
 #, php-format
 msgid "Yearly Archives: %s"
 msgstr "每年归档: %s"
 
-#: ../parts/class-content-post_list.php:530
+#: ../parts/class-content-post_list.php:535
 msgid "Archives"
 msgstr "归档"
 
@@ -1369,7 +1355,7 @@ msgstr "订阅我的 RSS"
 msgid "Back to top"
 msgstr "回到顶端"
 
-#: ../parts/class-header-header_main.php:142
+#: ../parts/class-header-header_main.php:161
 #, fuzzy
 msgid "Back Home"
 msgstr "首页"
@@ -1379,49 +1365,73 @@ msgstr "首页"
 msgid "Add a menu"
 msgstr "添加一个菜单"
 
-#: ../parts/class-header-slider.php:92 ../parts/class-header-slider.php:95
+#: ../parts/class-header-slider.php:96 ../parts/class-header-slider.php:99
 msgid "Customizr is a clean responsive theme"
 msgstr "Customizr 是一个清新交互的主题"
 
-#: ../parts/class-header-slider.php:96
+#: ../parts/class-header-slider.php:100
 msgid "Let your creativity speak and easily customiz'it the way you want!"
 msgstr "让您的的创造力得到个性化的展现！"
 
-#: ../parts/class-header-slider.php:97
+#: ../parts/class-header-slider.php:101
 #, fuzzy
 msgid "Learn more"
 msgstr "了解更多"
 
-#: ../parts/class-header-slider.php:102 ../parts/class-header-slider.php:105
+#: ../parts/class-header-slider.php:106 ../parts/class-header-slider.php:109
 #, fuzzy
 msgid "Style your WordPress site live!"
 msgstr "个性定制您的网站并同时查看效果"
 
-#: ../parts/class-header-slider.php:106
+#: ../parts/class-header-slider.php:110
 msgid ""
 "Many layout and design options are available from the WordPress customizer "
 "screen : see your changes live !"
 msgstr ""
 "在WordPress中的个性化定制中很多样式和设计选项都可用，等着看您的网站成果啦！"
 
-#: ../parts/class-header-slider.php:107
+#: ../parts/class-header-slider.php:111
 #, fuzzy
 msgid "Just try it!"
 msgstr "开始动手做吧！"
 
-#: ../parts/class-header-slider.php:112 ../parts/class-header-slider.php:115
+#: ../parts/class-header-slider.php:116 ../parts/class-header-slider.php:119
 msgid "Create beautiful sliders"
 msgstr "创建美丽的滑块"
 
-#: ../parts/class-header-slider.php:116
+#: ../parts/class-header-slider.php:120
 msgid ""
 "Customizr comes with a cool slider generator : add a slider to any post or "
 "page!"
 msgstr "Customizr 中包含一个很酷的滑块生成器：添加滑块到任何文章和页面！"
 
-#: ../parts/class-header-slider.php:117
+#: ../parts/class-header-slider.php:121
 msgid "Discover the features"
 msgstr "发现特色功能"
+
+#~ msgid ""
+#~ "Thank you for updating to the latest version! Customizr %1$s has more "
+#~ "features, is safer and more stable than ever <a href=\"#customizr-"
+#~ "changelog\">(see changelog)</a> to help you build an awesome website. "
+#~ "Watch the <a href=\"#introduction\">introduction video</a> and find "
+#~ "inspiration in the <a href=\"#showcase\">showcase</a>.<br/> Enjoy it! "
+#~ msgstr ""
+#~ "恭喜您已经更新至 Customizr 的最新版本！Customizr %1$s 比以往具备更多功能，"
+#~ "更加安全和稳定 <a href=\"#customizr-changelog\">（查看更新记录）</a>帮助您"
+#~ "创建一流的网站。观看<a href=\"#introduction\">介绍视频</a> 并在这里<a "
+#~ "href=\"#showcase\">showcase</a>找到与您志同道合的朋友。<a href=\"#showcase"
+#~ "\">showcase</a>.<br/>尽情享用吧！"
+
+#~ msgid "Discover Customizr : quick video introduction"
+#~ msgstr "Customizr 发现之旅：快速介绍视频"
+
+#, fuzzy
+#~ msgid ""
+#~ "Welcome to the new version of Customizr. You will be redirected to the "
+#~ "About screen. If not, click <a href=\"%1$s\">here</a>."
+#~ msgstr ""
+#~ "欢迎来到新版的 Customizr。您将被转入主题介绍屏幕。如果没有成功转入，点击 "
+#~ "<a href=\"%1$s\">这里</a>."
 
 #, fuzzy
 #~ msgid "Ajust the slider size"
@@ -2861,10 +2871,6 @@ msgstr "发现特色功能"
 #, fuzzy
 #~ msgid "Untitled"
 #~ msgstr "标题"
-
-#, fuzzy
-#~ msgid "Display item content?"
-#~ msgstr "显示上方边框"
 
 #, fuzzy
 #~ msgid "Display item date?"

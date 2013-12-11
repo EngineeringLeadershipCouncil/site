@@ -97,12 +97,13 @@ min-height:     80px;}
 .HeadShotBox {
 	width:100%;
 	float: left;
-	overflow: hidden;
+	overflow: hidden;	
 }
 
 .HeadShotBox > .HeadShotBoxInner {
 	padding-bottom: 100%;
 	position: relative;
+	border: 2px;
 }
 
 
@@ -112,19 +113,20 @@ min-height:     80px;}
 	text-align: center;
 	overflow:hidden;
 	height:0px;
-	line-height:30px;
+	line-height:24px;
 	position: absolute;
 	left:0px; bottom:0px;
 	width:100%;
+	padding-top:2px;
 }
 
 .HeadShotText > .StaffName {
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 .HeadShotText > .Position {
 	display: block;
-	font-size: 1.1em;
+	font-size: 1.0em;
 	line-height: 12px;
 }
 
@@ -179,6 +181,11 @@ min-height:     80px;}
 }
 
 
+.PeopleTable{
+	border:none;
+	background:none;
+}
+
 /*Laying out document tables */
 .DataTables {
 	border: 2px solid #9DB668;
@@ -213,10 +220,14 @@ min-height:     80px;}
 }
 
 .DataTables .column-3{
-	width:10%
+	width:12%
 }
 
 .DataTables .column-4,
 .DataTables .column-5{
-	width:5%;
+	width:8%;
+}
+
+.modal-body {
+	max-height: 50%;
 }

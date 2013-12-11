@@ -239,7 +239,7 @@ tc__f( 'rec' , __FILE__ );
 
 
 
-/* 
+/*
 * The best and safest way to add your own functions to Customizr is to create a child theme
 * You can add functions here but it will be lost on upgrade. If you use a child theme, you are safe!
 * http://codex.wordpress.org/Child_Themes
